@@ -1,0 +1,357 @@
+[
+  {
+    "eval_id": "eval_001",
+    "query": "I want to patent a classical formulation combining Haridra and Maricha for joint inflammation and pain relief.",
+    "query_language": "EN",
+    "resolved_entities": [
+      {
+        "term": "Haridra",
+        "botanical": "Curcuma longa L."
+      },
+      {
+        "term": "Maricha",
+        "botanical": "Piper nigrum L."
+      }
+    ],
+    "expected_verdict": "NOT_PATENTABLE",
+    "expected_statutory_bars": [
+      "Patents Act 1970, s.3(p)",
+      "Patents Act 1970, s.3(e)"
+    ],
+    "nba_approval_required": true,
+    "nba_section": "Biological Diversity Act 2002, s.6(1)",
+    "wipo_disclosure_mandatory": true,
+    "recommended_viable_route": "PROCESS_PATENT",
+    "precedent_case": "US Patent 5,401,504 (Turmeric Revocation 1997)"
+  },
+  {
+    "eval_id": "eval_002",
+    "query": "\u092e\u0948\u0902 \u091c\u094b\u0921\u093c\u094b\u0902 \u0915\u0947 \u0926\u0930\u094d\u0926 \u0915\u0947 \u0932\u093f\u090f \u0939\u0930\u093f\u0926\u094d\u0930\u093e \u0914\u0930 \u092e\u0930\u093f\u091a \u0915\u093e \u092a\u0947\u091f\u0947\u0902\u091f \u0915\u0930\u093e\u0928\u093e \u091a\u093e\u0939\u0924\u093e \u0939\u0942\u0901\u0964",
+    "query_language": "HI",
+    "resolved_entities": [
+      {
+        "term": "\u0939\u0930\u093f\u0926\u094d\u0930\u093e (Haridra)",
+        "botanical": "Curcuma longa L."
+      },
+      {
+        "term": "\u092e\u0930\u093f\u091a (Maricha)",
+        "botanical": "Piper nigrum L."
+      }
+    ],
+    "expected_verdict": "NOT_PATENTABLE",
+    "expected_statutory_bars": [
+      "Patents Act 1970, s.3(p)"
+    ],
+    "nba_approval_required": true,
+    "nba_section": "Biological Diversity Act 2002, s.6(1)",
+    "wipo_disclosure_mandatory": true,
+    "recommended_viable_route": "PROCESS_PATENT",
+    "precedent_case": "US Patent 5,401,504 (Turmeric Revocation 1997)"
+  },
+  {
+    "eval_id": "eval_003",
+    "query": "\u092e\u0932\u093e \u0938\u093e\u0902\u0927\u0947\u0926\u0941\u0916\u0940\u0938\u093e\u0920\u0940 \u0939\u0933\u0926 \u0906\u0923\u093f \u092e\u093f\u0930\u0940 \u092f\u093e\u0902\u091a\u0947 \u092a\u0947\u091f\u0902\u091f \u0918\u094d\u092f\u093e\u092f\u091a\u0947 \u0906\u0939\u0947.",
+    "query_language": "MR",
+    "resolved_entities": [
+      {
+        "term": "\u0939\u0933\u0926 (Haridra)",
+        "botanical": "Curcuma longa L."
+      },
+      {
+        "term": "\u092e\u093f\u0930\u0940 (Maricha)",
+        "botanical": "Piper nigrum L."
+      }
+    ],
+    "expected_verdict": "NOT_PATENTABLE",
+    "expected_statutory_bars": [
+      "Patents Act 1970, s.3(p)"
+    ],
+    "nba_approval_required": true,
+    "nba_section": "Biological Diversity Act 2002, s.6(1)",
+    "wipo_disclosure_mandatory": true,
+    "recommended_viable_route": "GEOGRAPHICAL_INDICATION",
+    "precedent_case": null
+  },
+  {
+    "eval_id": "eval_004",
+    "query": "Process for green supercritical CO2 extraction of Tinospora cordifolia yielding 98% pure cordifolioside A with 4x enhanced bioavailability.",
+    "query_language": "EN",
+    "resolved_entities": [
+      {
+        "term": "Guduchi / Tinospora cordifolia",
+        "botanical": "Tinospora cordifolia (Willd.) Miers"
+      }
+    ],
+    "expected_verdict": "CONDITIONALLY_PATENTABLE",
+    "expected_statutory_bars": [
+      "Patents Act 1970, s.3(d) (Requires Efficacy Proof)"
+    ],
+    "nba_approval_required": true,
+    "nba_section": "Biological Diversity Act 2002, s.6(1)",
+    "wipo_disclosure_mandatory": true,
+    "recommended_viable_route": "PROCESS_PATENT",
+    "precedent_case": null
+  },
+  {
+    "eval_id": "eval_005",
+    "query": "What is the therapeutic dose of Paracetamol for pediatric fever?",
+    "query_language": "EN",
+    "resolved_entities": [],
+    "expected_verdict": "ABSTAIN",
+    "abstention_reason": "Out of scope: System provides IP and regulatory guidance for Ayurvedic formulations, not medical diagnosis or Western drug dosage advice.",
+    "expected_statutory_bars": [],
+    "nba_approval_required": false,
+    "wipo_disclosure_mandatory": false,
+    "recommended_viable_route": "HUMAN_EXPERT_ROUTING"
+  },
+  {
+    "eval_id": "EVAL_006",
+    "query": "What is the dosage of Brahmi_0 for treating acute fever?",
+    "query_language": "HI",
+    "expected_verdict": "ABSTAIN",
+    "tags": [
+      "generated",
+      "abstain"
+    ]
+  },
+  {
+    "eval_id": "EVAL_007",
+    "query": "What is the dosage of Brahmi_1 for treating acute fever?",
+    "query_language": "EN",
+    "expected_verdict": "ABSTAIN",
+    "tags": [
+      "generated",
+      "abstain"
+    ]
+  },
+  {
+    "eval_id": "EVAL_008",
+    "query": "What is the dosage of Brahmi_2 for treating acute fever?",
+    "query_language": "MR",
+    "expected_verdict": "ABSTAIN",
+    "tags": [
+      "generated",
+      "abstain"
+    ]
+  },
+  {
+    "eval_id": "EVAL_009",
+    "query": "Can I patent a formulation of Brahmi_3 and Shatavari_3 for curing fever?",
+    "query_language": "EN",
+    "expected_verdict": "NOT_PATENTABLE",
+    "tags": [
+      "generated",
+      "not_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_010",
+    "query": "What is the dosage of Brahmi_4 for treating acute fever?",
+    "query_language": "MR",
+    "expected_verdict": "ABSTAIN",
+    "tags": [
+      "generated",
+      "abstain"
+    ]
+  },
+  {
+    "eval_id": "EVAL_011",
+    "query": "What is the dosage of Brahmi_5 for treating acute fever?",
+    "query_language": "HI",
+    "expected_verdict": "ABSTAIN",
+    "tags": [
+      "generated",
+      "abstain"
+    ]
+  },
+  {
+    "eval_id": "EVAL_012",
+    "query": "Can I patent a formulation of Brahmi_6 and Shatavari_6 for curing fever?",
+    "query_language": "MR",
+    "expected_verdict": "NOT_PATENTABLE",
+    "tags": [
+      "generated",
+      "not_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_013",
+    "query": "Can I patent a formulation of Brahmi_7 and Shatavari_7 for curing fever?",
+    "query_language": "MR",
+    "expected_verdict": "NOT_PATENTABLE",
+    "tags": [
+      "generated",
+      "not_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_014",
+    "query": "We have developed a novel supercritical extraction process for Brahmi_8 that yields 50% more active compound.",
+    "query_language": "MR",
+    "expected_verdict": "CONDITIONALLY_PATENTABLE",
+    "tags": [
+      "generated",
+      "conditionally_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_015",
+    "query": "We have developed a novel supercritical extraction process for Brahmi_9 that yields 50% more active compound.",
+    "query_language": "MR",
+    "expected_verdict": "CONDITIONALLY_PATENTABLE",
+    "tags": [
+      "generated",
+      "conditionally_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_016",
+    "query": "We have developed a novel supercritical extraction process for Brahmi_10 that yields 50% more active compound.",
+    "query_language": "HI",
+    "expected_verdict": "CONDITIONALLY_PATENTABLE",
+    "tags": [
+      "generated",
+      "conditionally_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_017",
+    "query": "Can I patent a formulation of Brahmi_11 and Shatavari_11 for curing fever?",
+    "query_language": "EN",
+    "expected_verdict": "NOT_PATENTABLE",
+    "tags": [
+      "generated",
+      "not_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_018",
+    "query": "What is the dosage of Brahmi_12 for treating acute fever?",
+    "query_language": "EN",
+    "expected_verdict": "ABSTAIN",
+    "tags": [
+      "generated",
+      "abstain"
+    ]
+  },
+  {
+    "eval_id": "EVAL_019",
+    "query": "What is the dosage of Brahmi_13 for treating acute fever?",
+    "query_language": "HI",
+    "expected_verdict": "ABSTAIN",
+    "tags": [
+      "generated",
+      "abstain"
+    ]
+  },
+  {
+    "eval_id": "EVAL_020",
+    "query": "Can I patent a formulation of Brahmi_14 and Shatavari_14 for curing fever?",
+    "query_language": "MR",
+    "expected_verdict": "NOT_PATENTABLE",
+    "tags": [
+      "generated",
+      "not_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_021",
+    "query": "Can I patent a formulation of Brahmi_15 and Shatavari_15 for curing fever?",
+    "query_language": "HI",
+    "expected_verdict": "NOT_PATENTABLE",
+    "tags": [
+      "generated",
+      "not_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_022",
+    "query": "Can I patent a formulation of Brahmi_16 and Shatavari_16 for curing fever?",
+    "query_language": "HI",
+    "expected_verdict": "NOT_PATENTABLE",
+    "tags": [
+      "generated",
+      "not_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_023",
+    "query": "We have developed a novel supercritical extraction process for Brahmi_17 that yields 50% more active compound.",
+    "query_language": "HI",
+    "expected_verdict": "CONDITIONALLY_PATENTABLE",
+    "tags": [
+      "generated",
+      "conditionally_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_024",
+    "query": "What is the dosage of Brahmi_18 for treating acute fever?",
+    "query_language": "MR",
+    "expected_verdict": "ABSTAIN",
+    "tags": [
+      "generated",
+      "abstain"
+    ]
+  },
+  {
+    "eval_id": "EVAL_025",
+    "query": "What is the dosage of Brahmi_19 for treating acute fever?",
+    "query_language": "EN",
+    "expected_verdict": "ABSTAIN",
+    "tags": [
+      "generated",
+      "abstain"
+    ]
+  },
+  {
+    "eval_id": "EVAL_026",
+    "query": "We have developed a novel supercritical extraction process for Brahmi_20 that yields 50% more active compound.",
+    "query_language": "EN",
+    "expected_verdict": "CONDITIONALLY_PATENTABLE",
+    "tags": [
+      "generated",
+      "conditionally_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_027",
+    "query": "We have developed a novel supercritical extraction process for Brahmi_21 that yields 50% more active compound.",
+    "query_language": "EN",
+    "expected_verdict": "CONDITIONALLY_PATENTABLE",
+    "tags": [
+      "generated",
+      "conditionally_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_028",
+    "query": "What is the dosage of Brahmi_22 for treating acute fever?",
+    "query_language": "MR",
+    "expected_verdict": "ABSTAIN",
+    "tags": [
+      "generated",
+      "abstain"
+    ]
+  },
+  {
+    "eval_id": "EVAL_029",
+    "query": "Can I patent a formulation of Brahmi_23 and Shatavari_23 for curing fever?",
+    "query_language": "HI",
+    "expected_verdict": "NOT_PATENTABLE",
+    "tags": [
+      "generated",
+      "not_patentable"
+    ]
+  },
+  {
+    "eval_id": "EVAL_030",
+    "query": "Can I patent a formulation of Brahmi_24 and Shatavari_24 for curing fever?",
+    "query_language": "EN",
+    "expected_verdict": "NOT_PATENTABLE",
+    "tags": [
+      "generated",
+      "not_patentable"
+    ]
+  }
+]

@@ -1,0 +1,5 @@
+filename,official_title,issuing_authority,version_date,source_url,download_date,sha256,status
+tier1_ip/patents_act_1970.pdf,"Patents Act, 1970 (as amended)",India Code,2024-01-01,https://www.indiacode.nic.in/bitstream/123456789/1392/1/197039.pdf,2026-09-05T12:26:36Z,ERROR,FAILED
+tier1_ip/biological_diversity_act_2002.pdf,"Biological Diversity Act, 2002",India Code,2003-02-05,https://www.indiacode.nic.in/bitstream/123456789/2046/1/200318.pdf,2026-09-05T12:26:36Z,ERROR,FAILED
+tier1_ip/biological_diversity_amendment_2023.pdf,"Biological Diversity (Amendment) Act, 2023",India Code,2023-08-03,https://www.indiacode.nic.in/bitstream/123456789/2046/2/202310.pdf,2026-09-05T12:26:36Z,ERROR,FAILED
+tier3_intl/wipo_gratk_2024.pdf,"WIPO Treaty on IP, Genetic Resources & Associated TK",WIPO,2024-05-24,https://www.wipo.int/edocs/mdocs/tk/en/wipo_diplomatic_conference_gratk/wipo_diplomatic_conference_gratk_2024.pdf,2026-09-05T12:26:36Z,ERROR,FAILED

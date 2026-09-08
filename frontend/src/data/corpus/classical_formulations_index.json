@@ -1,0 +1,3269 @@
+[
+  {
+    "formulation_id": "afi_001",
+    "name": "Triphala Churna",
+    "ingredients": [
+      {
+        "name": "Haritaki",
+        "botanical": "Terminalia chebula",
+        "part": "Pericarp"
+      },
+      {
+        "name": "Bibhitaki",
+        "botanical": "Terminalia bellirica",
+        "part": "Pericarp"
+      },
+      {
+        "name": "Amalaki",
+        "botanical": "Phyllanthus emblica",
+        "part": "Pericarp"
+      }
+    ],
+    "therapeutic_uses": [
+      "Constipation",
+      "Eye diseases",
+      "Digestive weakness"
+    ],
+    "reference": "Ayurvedic Formulary of India, Vol 1, 7:15",
+    "is_classical": true
+  },
+  {
+    "formulation_id": "afi_002",
+    "name": "Trikatu Churna",
+    "ingredients": [
+      {
+        "name": "Pippali",
+        "botanical": "Piper longum",
+        "part": "Fruit"
+      },
+      {
+        "name": "Maricha",
+        "botanical": "Piper nigrum",
+        "part": "Fruit"
+      },
+      {
+        "name": "Shunthi",
+        "botanical": "Zingiber officinale",
+        "part": "Rhizome"
+      }
+    ],
+    "therapeutic_uses": [
+      "Cough",
+      "Cold",
+      "Indigestion",
+      "Asthma"
+    ],
+    "reference": "Ayurvedic Formulary of India, Vol 1, 7:14",
+    "is_classical": true
+  },
+  {
+    "formulation_id": "afi_003",
+    "name": "Haridra Khanda",
+    "ingredients": [
+      {
+        "name": "Haridra",
+        "botanical": "Curcuma longa",
+        "part": "Rhizome"
+      },
+      {
+        "name": "Maricha",
+        "botanical": "Piper nigrum",
+        "part": "Fruit"
+      },
+      {
+        "name": "Ghee",
+        "botanical": "N/A",
+        "part": "Fat"
+      },
+      {
+        "name": "Milk",
+        "botanical": "N/A",
+        "part": "Liquid"
+      }
+    ],
+    "therapeutic_uses": [
+      "Urticaria",
+      "Allergies",
+      "Skin diseases"
+    ],
+    "reference": "Bhaishajya Ratnavali, Udardashitapittakothadhikara",
+    "is_classical": true
+  },
+  {
+    "formulation_id": "afi_004",
+    "name": "Chyawanprash",
+    "ingredients": [
+      {
+        "name": "Amalaki",
+        "botanical": "Phyllanthus emblica",
+        "part": "Fruit"
+      },
+      {
+        "name": "Ashwagandha",
+        "botanical": "Withania somnifera",
+        "part": "Root"
+      },
+      {
+        "name": "Guduchi",
+        "botanical": "Tinospora cordifolia",
+        "part": "Stem"
+      }
+    ],
+    "therapeutic_uses": [
+      "Cough",
+      "Asthma",
+      "Immunity",
+      "Anti-aging"
+    ],
+    "reference": "Charaka Samhita, Chikitsa Sthana, 1.1",
+    "is_classical": true
+  },
+  {
+    "formulation_id": "afi_005",
+    "name": "Ashwagandharishta",
+    "ingredients": [
+      {
+        "name": "Ashwagandha",
+        "botanical": "Withania somnifera",
+        "part": "Root"
+      },
+      {
+        "name": "Musali",
+        "botanical": "Chlorophytum tuberosum",
+        "part": "Root"
+      },
+      {
+        "name": "Manjistha",
+        "botanical": "Rubia cordifolia",
+        "part": "Root"
+      }
+    ],
+    "therapeutic_uses": [
+      "Epilepsy",
+      "Nervous disorders",
+      "Memory loss"
+    ],
+    "reference": "Bhaishajya Ratnavali, Murcharogadhikara",
+    "is_classical": true
+  },
+  {
+    "formulation_id": "AFI_0006",
+    "name_sanskrit": "MockFormulation 0",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0007",
+    "name_sanskrit": "MockFormulation 1",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0008",
+    "name_sanskrit": "MockFormulation 2",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0009",
+    "name_sanskrit": "MockFormulation 3",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0010",
+    "name_sanskrit": "MockFormulation 4",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0011",
+    "name_sanskrit": "MockFormulation 5",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0012",
+    "name_sanskrit": "MockFormulation 6",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0013",
+    "name_sanskrit": "MockFormulation 7",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0014",
+    "name_sanskrit": "MockFormulation 8",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0015",
+    "name_sanskrit": "MockFormulation 9",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0016",
+    "name_sanskrit": "MockFormulation 10",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0017",
+    "name_sanskrit": "MockFormulation 11",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0018",
+    "name_sanskrit": "MockFormulation 12",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0019",
+    "name_sanskrit": "MockFormulation 13",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0020",
+    "name_sanskrit": "MockFormulation 14",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0021",
+    "name_sanskrit": "MockFormulation 15",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0022",
+    "name_sanskrit": "MockFormulation 16",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0023",
+    "name_sanskrit": "MockFormulation 17",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0024",
+    "name_sanskrit": "MockFormulation 18",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0025",
+    "name_sanskrit": "MockFormulation 19",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0026",
+    "name_sanskrit": "MockFormulation 20",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0027",
+    "name_sanskrit": "MockFormulation 21",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0028",
+    "name_sanskrit": "MockFormulation 22",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0029",
+    "name_sanskrit": "MockFormulation 23",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0030",
+    "name_sanskrit": "MockFormulation 24",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0031",
+    "name_sanskrit": "MockFormulation 25",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0032",
+    "name_sanskrit": "MockFormulation 26",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0033",
+    "name_sanskrit": "MockFormulation 27",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0034",
+    "name_sanskrit": "MockFormulation 28",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0035",
+    "name_sanskrit": "MockFormulation 29",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0036",
+    "name_sanskrit": "MockFormulation 30",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0037",
+    "name_sanskrit": "MockFormulation 31",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0038",
+    "name_sanskrit": "MockFormulation 32",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0039",
+    "name_sanskrit": "MockFormulation 33",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0040",
+    "name_sanskrit": "MockFormulation 34",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0041",
+    "name_sanskrit": "MockFormulation 35",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0042",
+    "name_sanskrit": "MockFormulation 36",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0043",
+    "name_sanskrit": "MockFormulation 37",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0044",
+    "name_sanskrit": "MockFormulation 38",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0045",
+    "name_sanskrit": "MockFormulation 39",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0046",
+    "name_sanskrit": "MockFormulation 40",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0047",
+    "name_sanskrit": "MockFormulation 41",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0048",
+    "name_sanskrit": "MockFormulation 42",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0049",
+    "name_sanskrit": "MockFormulation 43",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0050",
+    "name_sanskrit": "MockFormulation 44",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0051",
+    "name_sanskrit": "MockFormulation 45",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0052",
+    "name_sanskrit": "MockFormulation 46",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0053",
+    "name_sanskrit": "MockFormulation 47",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0054",
+    "name_sanskrit": "MockFormulation 48",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0055",
+    "name_sanskrit": "MockFormulation 49",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0056",
+    "name_sanskrit": "MockFormulation 50",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0057",
+    "name_sanskrit": "MockFormulation 51",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0058",
+    "name_sanskrit": "MockFormulation 52",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0059",
+    "name_sanskrit": "MockFormulation 53",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0060",
+    "name_sanskrit": "MockFormulation 54",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0061",
+    "name_sanskrit": "MockFormulation 55",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0062",
+    "name_sanskrit": "MockFormulation 56",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0063",
+    "name_sanskrit": "MockFormulation 57",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0064",
+    "name_sanskrit": "MockFormulation 58",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0065",
+    "name_sanskrit": "MockFormulation 59",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0066",
+    "name_sanskrit": "MockFormulation 60",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0067",
+    "name_sanskrit": "MockFormulation 61",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0068",
+    "name_sanskrit": "MockFormulation 62",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0069",
+    "name_sanskrit": "MockFormulation 63",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0070",
+    "name_sanskrit": "MockFormulation 64",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0071",
+    "name_sanskrit": "MockFormulation 65",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0072",
+    "name_sanskrit": "MockFormulation 66",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0073",
+    "name_sanskrit": "MockFormulation 67",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0074",
+    "name_sanskrit": "MockFormulation 68",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0075",
+    "name_sanskrit": "MockFormulation 69",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0076",
+    "name_sanskrit": "MockFormulation 70",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0077",
+    "name_sanskrit": "MockFormulation 71",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0078",
+    "name_sanskrit": "MockFormulation 72",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0079",
+    "name_sanskrit": "MockFormulation 73",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0080",
+    "name_sanskrit": "MockFormulation 74",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0081",
+    "name_sanskrit": "MockFormulation 75",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0082",
+    "name_sanskrit": "MockFormulation 76",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0083",
+    "name_sanskrit": "MockFormulation 77",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0084",
+    "name_sanskrit": "MockFormulation 78",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0085",
+    "name_sanskrit": "MockFormulation 79",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0086",
+    "name_sanskrit": "MockFormulation 80",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0087",
+    "name_sanskrit": "MockFormulation 81",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0088",
+    "name_sanskrit": "MockFormulation 82",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0089",
+    "name_sanskrit": "MockFormulation 83",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0090",
+    "name_sanskrit": "MockFormulation 84",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0091",
+    "name_sanskrit": "MockFormulation 85",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0092",
+    "name_sanskrit": "MockFormulation 86",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0093",
+    "name_sanskrit": "MockFormulation 87",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0094",
+    "name_sanskrit": "MockFormulation 88",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0095",
+    "name_sanskrit": "MockFormulation 89",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0096",
+    "name_sanskrit": "MockFormulation 90",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0097",
+    "name_sanskrit": "MockFormulation 91",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0098",
+    "name_sanskrit": "MockFormulation 92",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0099",
+    "name_sanskrit": "MockFormulation 93",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0100",
+    "name_sanskrit": "MockFormulation 94",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0101",
+    "name_sanskrit": "MockFormulation 95",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0102",
+    "name_sanskrit": "MockFormulation 96",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0103",
+    "name_sanskrit": "MockFormulation 97",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0104",
+    "name_sanskrit": "MockFormulation 98",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0105",
+    "name_sanskrit": "MockFormulation 99",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0106",
+    "name_sanskrit": "MockFormulation 100",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0107",
+    "name_sanskrit": "MockFormulation 101",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0108",
+    "name_sanskrit": "MockFormulation 102",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0109",
+    "name_sanskrit": "MockFormulation 103",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0110",
+    "name_sanskrit": "MockFormulation 104",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0111",
+    "name_sanskrit": "MockFormulation 105",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0112",
+    "name_sanskrit": "MockFormulation 106",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0113",
+    "name_sanskrit": "MockFormulation 107",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0114",
+    "name_sanskrit": "MockFormulation 108",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0115",
+    "name_sanskrit": "MockFormulation 109",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0116",
+    "name_sanskrit": "MockFormulation 110",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0117",
+    "name_sanskrit": "MockFormulation 111",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0118",
+    "name_sanskrit": "MockFormulation 112",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0119",
+    "name_sanskrit": "MockFormulation 113",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0120",
+    "name_sanskrit": "MockFormulation 114",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0121",
+    "name_sanskrit": "MockFormulation 115",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0122",
+    "name_sanskrit": "MockFormulation 116",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0123",
+    "name_sanskrit": "MockFormulation 117",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0124",
+    "name_sanskrit": "MockFormulation 118",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0125",
+    "name_sanskrit": "MockFormulation 119",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0126",
+    "name_sanskrit": "MockFormulation 120",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0127",
+    "name_sanskrit": "MockFormulation 121",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0128",
+    "name_sanskrit": "MockFormulation 122",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0129",
+    "name_sanskrit": "MockFormulation 123",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0130",
+    "name_sanskrit": "MockFormulation 124",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0131",
+    "name_sanskrit": "MockFormulation 125",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0132",
+    "name_sanskrit": "MockFormulation 126",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0133",
+    "name_sanskrit": "MockFormulation 127",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0134",
+    "name_sanskrit": "MockFormulation 128",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0135",
+    "name_sanskrit": "MockFormulation 129",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0136",
+    "name_sanskrit": "MockFormulation 130",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0137",
+    "name_sanskrit": "MockFormulation 131",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0138",
+    "name_sanskrit": "MockFormulation 132",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0139",
+    "name_sanskrit": "MockFormulation 133",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0140",
+    "name_sanskrit": "MockFormulation 134",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0141",
+    "name_sanskrit": "MockFormulation 135",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0142",
+    "name_sanskrit": "MockFormulation 136",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0143",
+    "name_sanskrit": "MockFormulation 137",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0144",
+    "name_sanskrit": "MockFormulation 138",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0145",
+    "name_sanskrit": "MockFormulation 139",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0146",
+    "name_sanskrit": "MockFormulation 140",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0147",
+    "name_sanskrit": "MockFormulation 141",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0148",
+    "name_sanskrit": "MockFormulation 142",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0149",
+    "name_sanskrit": "MockFormulation 143",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0150",
+    "name_sanskrit": "MockFormulation 144",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0151",
+    "name_sanskrit": "MockFormulation 145",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0152",
+    "name_sanskrit": "MockFormulation 146",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0153",
+    "name_sanskrit": "MockFormulation 147",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0154",
+    "name_sanskrit": "MockFormulation 148",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0155",
+    "name_sanskrit": "MockFormulation 149",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0156",
+    "name_sanskrit": "MockFormulation 150",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0157",
+    "name_sanskrit": "MockFormulation 151",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0158",
+    "name_sanskrit": "MockFormulation 152",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0159",
+    "name_sanskrit": "MockFormulation 153",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0160",
+    "name_sanskrit": "MockFormulation 154",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0161",
+    "name_sanskrit": "MockFormulation 155",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0162",
+    "name_sanskrit": "MockFormulation 156",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0163",
+    "name_sanskrit": "MockFormulation 157",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0164",
+    "name_sanskrit": "MockFormulation 158",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0165",
+    "name_sanskrit": "MockFormulation 159",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0166",
+    "name_sanskrit": "MockFormulation 160",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0167",
+    "name_sanskrit": "MockFormulation 161",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0168",
+    "name_sanskrit": "MockFormulation 162",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0169",
+    "name_sanskrit": "MockFormulation 163",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0170",
+    "name_sanskrit": "MockFormulation 164",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0171",
+    "name_sanskrit": "MockFormulation 165",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0172",
+    "name_sanskrit": "MockFormulation 166",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0173",
+    "name_sanskrit": "MockFormulation 167",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0174",
+    "name_sanskrit": "MockFormulation 168",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0175",
+    "name_sanskrit": "MockFormulation 169",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0176",
+    "name_sanskrit": "MockFormulation 170",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0177",
+    "name_sanskrit": "MockFormulation 171",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0178",
+    "name_sanskrit": "MockFormulation 172",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0179",
+    "name_sanskrit": "MockFormulation 173",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0180",
+    "name_sanskrit": "MockFormulation 174",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0181",
+    "name_sanskrit": "MockFormulation 175",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0182",
+    "name_sanskrit": "MockFormulation 176",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0183",
+    "name_sanskrit": "MockFormulation 177",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0184",
+    "name_sanskrit": "MockFormulation 178",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0185",
+    "name_sanskrit": "MockFormulation 179",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0186",
+    "name_sanskrit": "MockFormulation 180",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0187",
+    "name_sanskrit": "MockFormulation 181",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0188",
+    "name_sanskrit": "MockFormulation 182",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0189",
+    "name_sanskrit": "MockFormulation 183",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0190",
+    "name_sanskrit": "MockFormulation 184",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0191",
+    "name_sanskrit": "MockFormulation 185",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0192",
+    "name_sanskrit": "MockFormulation 186",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0193",
+    "name_sanskrit": "MockFormulation 187",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0194",
+    "name_sanskrit": "MockFormulation 188",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0195",
+    "name_sanskrit": "MockFormulation 189",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0196",
+    "name_sanskrit": "MockFormulation 190",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0197",
+    "name_sanskrit": "MockFormulation 191",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0198",
+    "name_sanskrit": "MockFormulation 192",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0199",
+    "name_sanskrit": "MockFormulation 193",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  },
+  {
+    "formulation_id": "AFI_0200",
+    "name_sanskrit": "MockFormulation 194",
+    "type": "Churna",
+    "reference_text": "Ayurvedic Formulary of India",
+    "ingredients": [
+      "Haridra",
+      "Maricha"
+    ],
+    "therapeutic_indications": [
+      "Cough",
+      "Fever"
+    ],
+    "method_of_preparation": "Mix powders.",
+    "tkdl_status": "INDEXED"
+  }
+]

@@ -1,0 +1,2786 @@
+[
+  {
+    "id": "drug_001",
+    "sanskrit_name": "Haridra",
+    "iast_transliteration": "Haridr\u0101",
+    "hindi_name": "Haldi",
+    "marathi_name": "Halad",
+    "tamil_name": "Manjal",
+    "english_common_name": "Turmeric",
+    "botanical_binomial": "Curcuma longa L.",
+    "plant_family": "Zingiberaceae",
+    "parts_used": [
+      "Rhizome"
+    ],
+    "afi_reference": "Ayurvedic Formulary of India Part I, Vol 1",
+    "classical_formulation_presence": [
+      "Haridra Khanda",
+      "Nisha Katakadi Kashayam",
+      "Haridradi Ghrita"
+    ],
+    "key_phytochemicals": [
+      "Curcumin",
+      "Demethoxycurcumin",
+      "Bisdemethoxycurcumin",
+      "Turmerone"
+    ],
+    "biopiracy_precedent": "US Patent 5,401,504 (Revoked 1997 after CSIR challenge)"
+  },
+  {
+    "id": "drug_002",
+    "sanskrit_name": "Maricha",
+    "iast_transliteration": "Marica",
+    "hindi_name": "Kali Mirch",
+    "marathi_name": "Kire Mire",
+    "tamil_name": "Milagu",
+    "english_common_name": "Black Pepper",
+    "botanical_binomial": "Piper nigrum L.",
+    "plant_family": "Piperaceae",
+    "parts_used": [
+      "Dried Fruit"
+    ],
+    "afi_reference": "Ayurvedic Formulary of India Part I, Vol 1",
+    "classical_formulation_presence": [
+      "Trikatu Churna",
+      "Marichadi Taila",
+      "Talisadi Churna"
+    ],
+    "key_phytochemicals": [
+      "Piperine",
+      "Piperidine",
+      "Chavicine"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_003",
+    "sanskrit_name": "Guduchi",
+    "iast_transliteration": "Gu\u1e0d\u016bc\u012b",
+    "hindi_name": "Giloy",
+    "marathi_name": "Gulvel",
+    "tamil_name": "Seenthil Kodi",
+    "english_common_name": "Heart-leaved Moonseed",
+    "botanical_binomial": "Tinospora cordifolia (Willd.) Miers",
+    "plant_family": "Menispermaceae",
+    "parts_used": [
+      "Stem"
+    ],
+    "afi_reference": "Ayurvedic Pharmacopoeia of India Part I, Vol 1",
+    "classical_formulation_presence": [
+      "Guduchi Satva",
+      "Amritarishta",
+      "Sudarshana Churna"
+    ],
+    "key_phytochemicals": [
+      "Tinosporide",
+      "Cordifolioside",
+      "Berberine"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_004",
+    "sanskrit_name": "Ashwagandha",
+    "iast_transliteration": "A\u015bvagandh\u0101",
+    "hindi_name": "Asgandh",
+    "marathi_name": "Asagandh",
+    "tamil_name": "Amukkara",
+    "english_common_name": "Indian Ginseng / Winter Cherry",
+    "botanical_binomial": "Withania somnifera (L.) Dunal",
+    "plant_family": "Solanaceae",
+    "parts_used": [
+      "Root"
+    ],
+    "afi_reference": "Ayurvedic Pharmacopoeia of India Part I, Vol 1",
+    "classical_formulation_presence": [
+      "Ashwagandharishta",
+      "Ashwagandhadi Lehya",
+      "Balarishta"
+    ],
+    "key_phytochemicals": [
+      "Withaferin A",
+      "Withanolide D",
+      "Sitoindoside"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_005",
+    "sanskrit_name": "Nimba",
+    "iast_transliteration": "Nimba",
+    "hindi_name": "Neem",
+    "marathi_name": "Kadu Neem",
+    "tamil_name": "Vembu",
+    "english_common_name": "Neem Tree",
+    "botanical_binomial": "Azadirachta indica A. Juss.",
+    "plant_family": "Meliaceae",
+    "parts_used": [
+      "Leaf",
+      "Bark",
+      "Seed Oil"
+    ],
+    "afi_reference": "Ayurvedic Formulary of India Part I",
+    "classical_formulation_presence": [
+      "Nimbadi Churna",
+      "Nimbadi Taila",
+      "Panchagavya Ghrita"
+    ],
+    "key_phytochemicals": [
+      "Azadirachtin",
+      "Nimbin",
+      "Nimbidin"
+    ],
+    "biopiracy_precedent": "EP Patent 436,257 (Revoked by EPO 2005 after India challenge)"
+  },
+  {
+    "id": "drug_006",
+    "sanskrit_name": "Amalaki",
+    "iast_transliteration": "\u0100malak\u012b",
+    "hindi_name": "Amla",
+    "marathi_name": "Aval\u0101",
+    "tamil_name": "Nelli",
+    "english_common_name": "Indian Gooseberry",
+    "botanical_binomial": "Phyllanthus emblica L.",
+    "plant_family": "Phyllanthaceae",
+    "parts_used": [
+      "Pericarp of Fruit"
+    ],
+    "afi_reference": "Ayurvedic Formulary of India Part I",
+    "classical_formulation_presence": [
+      "Triphala Churna",
+      "Chyawanprash",
+      "Amalaki Rasayana"
+    ],
+    "key_phytochemicals": [
+      "Ascorbic acid",
+      "Ellagic acid",
+      "Gallic acid",
+      "Emblicanin A"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_007",
+    "sanskrit_name": "Bibhitaki",
+    "iast_transliteration": "Bibh\u012btak\u012b",
+    "hindi_name": "Baheda",
+    "marathi_name": "Beha\u1e0d\u0101",
+    "tamil_name": "Thandri",
+    "english_common_name": "Belleric Myrobalan",
+    "botanical_binomial": "Terminalia bellerica (Gaertn.) Roxb.",
+    "plant_family": "Combretaceae",
+    "parts_used": [
+      "Fruit Pericarp"
+    ],
+    "afi_reference": "Ayurvedic Formulary of India Part I",
+    "classical_formulation_presence": [
+      "Triphala Churna",
+      "Lavangadi Vati",
+      "Triphaladi Taila"
+    ],
+    "key_phytochemicals": [
+      "Chebulagic acid",
+      "Gallic acid",
+      "Bellericanin"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_008",
+    "sanskrit_name": "Haritaki",
+    "iast_transliteration": "Har\u012btak\u012b",
+    "hindi_name": "Harad",
+    "marathi_name": "Hira\u1e0d\u0101",
+    "tamil_name": "Kadukkai",
+    "english_common_name": "Chebulic Myrobalan",
+    "botanical_binomial": "Terminalia chebula Retz.",
+    "plant_family": "Combretaceae",
+    "parts_used": [
+      "Fruit Pericarp"
+    ],
+    "afi_reference": "Ayurvedic Formulary of India Part I",
+    "classical_formulation_presence": [
+      "Triphala Churna",
+      "Abhayarishta",
+      "Agastya Haritaki"
+    ],
+    "key_phytochemicals": [
+      "Chebulinic acid",
+      "Ellagic acid",
+      "Corilagin"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_009",
+    "sanskrit_name": "Tulsi",
+    "iast_transliteration": "Tulas\u012b",
+    "hindi_name": "Tulsi",
+    "marathi_name": "Tu\u1e37as",
+    "tamil_name": "Thulasi",
+    "english_common_name": "Holy Basil",
+    "botanical_binomial": "Ocimum sanctum L.",
+    "plant_family": "Lamiaceae",
+    "parts_used": [
+      "Leaf",
+      "Seed"
+    ],
+    "afi_reference": "Ayurvedic Pharmacopoeia of India Part I, Vol 2",
+    "classical_formulation_presence": [
+      "Surasa Taila",
+      "Tribhuvan Kirti Ras"
+    ],
+    "key_phytochemicals": [
+      "Eugenol",
+      "Rosmarinic acid",
+      "Ursolic acid"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_010",
+    "sanskrit_name": "Shunthi",
+    "iast_transliteration": "\u015au\u1e47\u1e6dh\u012b",
+    "hindi_name": "Sonth / Adrak",
+    "marathi_name": "Sun\u1e6dh",
+    "tamil_name": "Sukku",
+    "english_common_name": "Dry Ginger",
+    "botanical_binomial": "Zingiber officinale Roscoe",
+    "plant_family": "Zingiberaceae",
+    "parts_used": [
+      "Rhizome"
+    ],
+    "afi_reference": "Ayurvedic Formulary of India Part I",
+    "classical_formulation_presence": [
+      "Trikatu Churna",
+      "Saubhagya Sunthi",
+      "Sardula Churna"
+    ],
+    "key_phytochemicals": [
+      "Gingerol",
+      "Shogaol",
+      "Zingerone"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_011",
+    "sanskrit_name": "Brahmi_0",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 0",
+    "english_common_name": "Brahmi Common 0",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_012",
+    "sanskrit_name": "Shatavari_1",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 1",
+    "english_common_name": "Shatavari Common 1",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_013",
+    "sanskrit_name": "Guggulu_2",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 2",
+    "english_common_name": "Guggulu Common 2",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_014",
+    "sanskrit_name": "Bhringraj_3",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 3",
+    "english_common_name": "Bhringraj Common 3",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_015",
+    "sanskrit_name": "Arjuna_4",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 4",
+    "english_common_name": "Arjuna Common 4",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_016",
+    "sanskrit_name": "Gokshura_5",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 5",
+    "english_common_name": "Gokshura Common 5",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_017",
+    "sanskrit_name": "Punarnava_6",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 6",
+    "english_common_name": "Punarnava Common 6",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_018",
+    "sanskrit_name": "Kalmegh_7",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 7",
+    "english_common_name": "Kalmegh Common 7",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_019",
+    "sanskrit_name": "Kutki_8",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 8",
+    "english_common_name": "Kutki Common 8",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_020",
+    "sanskrit_name": "Shilajit_9",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 9",
+    "english_common_name": "Shilajit Common 9",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_021",
+    "sanskrit_name": "Mulethi_10",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 10",
+    "english_common_name": "Mulethi Common 10",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_022",
+    "sanskrit_name": "Brahmi_11",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 11",
+    "english_common_name": "Brahmi Common 11",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_023",
+    "sanskrit_name": "Shatavari_12",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 12",
+    "english_common_name": "Shatavari Common 12",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_024",
+    "sanskrit_name": "Guggulu_13",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 13",
+    "english_common_name": "Guggulu Common 13",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_025",
+    "sanskrit_name": "Bhringraj_14",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 14",
+    "english_common_name": "Bhringraj Common 14",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_026",
+    "sanskrit_name": "Arjuna_15",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 15",
+    "english_common_name": "Arjuna Common 15",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_027",
+    "sanskrit_name": "Gokshura_16",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 16",
+    "english_common_name": "Gokshura Common 16",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_028",
+    "sanskrit_name": "Punarnava_17",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 17",
+    "english_common_name": "Punarnava Common 17",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_029",
+    "sanskrit_name": "Kalmegh_18",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 18",
+    "english_common_name": "Kalmegh Common 18",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_030",
+    "sanskrit_name": "Kutki_19",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 19",
+    "english_common_name": "Kutki Common 19",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_031",
+    "sanskrit_name": "Shilajit_20",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 20",
+    "english_common_name": "Shilajit Common 20",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_032",
+    "sanskrit_name": "Mulethi_21",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 21",
+    "english_common_name": "Mulethi Common 21",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_033",
+    "sanskrit_name": "Brahmi_22",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 22",
+    "english_common_name": "Brahmi Common 22",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_034",
+    "sanskrit_name": "Shatavari_23",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 23",
+    "english_common_name": "Shatavari Common 23",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_035",
+    "sanskrit_name": "Guggulu_24",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 24",
+    "english_common_name": "Guggulu Common 24",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_036",
+    "sanskrit_name": "Bhringraj_25",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 25",
+    "english_common_name": "Bhringraj Common 25",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_037",
+    "sanskrit_name": "Arjuna_26",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 26",
+    "english_common_name": "Arjuna Common 26",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_038",
+    "sanskrit_name": "Gokshura_27",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 27",
+    "english_common_name": "Gokshura Common 27",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_039",
+    "sanskrit_name": "Punarnava_28",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 28",
+    "english_common_name": "Punarnava Common 28",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_040",
+    "sanskrit_name": "Kalmegh_29",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 29",
+    "english_common_name": "Kalmegh Common 29",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_041",
+    "sanskrit_name": "Kutki_30",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 30",
+    "english_common_name": "Kutki Common 30",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_042",
+    "sanskrit_name": "Shilajit_31",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 31",
+    "english_common_name": "Shilajit Common 31",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_043",
+    "sanskrit_name": "Mulethi_32",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 32",
+    "english_common_name": "Mulethi Common 32",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_044",
+    "sanskrit_name": "Brahmi_33",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 33",
+    "english_common_name": "Brahmi Common 33",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_045",
+    "sanskrit_name": "Shatavari_34",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 34",
+    "english_common_name": "Shatavari Common 34",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_046",
+    "sanskrit_name": "Guggulu_35",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 35",
+    "english_common_name": "Guggulu Common 35",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_047",
+    "sanskrit_name": "Bhringraj_36",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 36",
+    "english_common_name": "Bhringraj Common 36",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_048",
+    "sanskrit_name": "Arjuna_37",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 37",
+    "english_common_name": "Arjuna Common 37",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_049",
+    "sanskrit_name": "Gokshura_38",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 38",
+    "english_common_name": "Gokshura Common 38",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_050",
+    "sanskrit_name": "Punarnava_39",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 39",
+    "english_common_name": "Punarnava Common 39",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_051",
+    "sanskrit_name": "Kalmegh_40",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 40",
+    "english_common_name": "Kalmegh Common 40",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_052",
+    "sanskrit_name": "Kutki_41",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 41",
+    "english_common_name": "Kutki Common 41",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_053",
+    "sanskrit_name": "Shilajit_42",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 42",
+    "english_common_name": "Shilajit Common 42",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_054",
+    "sanskrit_name": "Mulethi_43",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 43",
+    "english_common_name": "Mulethi Common 43",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_055",
+    "sanskrit_name": "Brahmi_44",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 44",
+    "english_common_name": "Brahmi Common 44",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_056",
+    "sanskrit_name": "Shatavari_45",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 45",
+    "english_common_name": "Shatavari Common 45",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_057",
+    "sanskrit_name": "Guggulu_46",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 46",
+    "english_common_name": "Guggulu Common 46",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_058",
+    "sanskrit_name": "Bhringraj_47",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 47",
+    "english_common_name": "Bhringraj Common 47",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_059",
+    "sanskrit_name": "Arjuna_48",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 48",
+    "english_common_name": "Arjuna Common 48",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_060",
+    "sanskrit_name": "Gokshura_49",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 49",
+    "english_common_name": "Gokshura Common 49",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_061",
+    "sanskrit_name": "Punarnava_50",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 50",
+    "english_common_name": "Punarnava Common 50",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_062",
+    "sanskrit_name": "Kalmegh_51",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 51",
+    "english_common_name": "Kalmegh Common 51",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_063",
+    "sanskrit_name": "Kutki_52",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 52",
+    "english_common_name": "Kutki Common 52",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_064",
+    "sanskrit_name": "Shilajit_53",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 53",
+    "english_common_name": "Shilajit Common 53",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_065",
+    "sanskrit_name": "Mulethi_54",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 54",
+    "english_common_name": "Mulethi Common 54",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_066",
+    "sanskrit_name": "Brahmi_55",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 55",
+    "english_common_name": "Brahmi Common 55",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_067",
+    "sanskrit_name": "Shatavari_56",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 56",
+    "english_common_name": "Shatavari Common 56",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_068",
+    "sanskrit_name": "Guggulu_57",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 57",
+    "english_common_name": "Guggulu Common 57",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_069",
+    "sanskrit_name": "Bhringraj_58",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 58",
+    "english_common_name": "Bhringraj Common 58",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_070",
+    "sanskrit_name": "Arjuna_59",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 59",
+    "english_common_name": "Arjuna Common 59",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_071",
+    "sanskrit_name": "Gokshura_60",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 60",
+    "english_common_name": "Gokshura Common 60",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_072",
+    "sanskrit_name": "Punarnava_61",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 61",
+    "english_common_name": "Punarnava Common 61",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_073",
+    "sanskrit_name": "Kalmegh_62",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 62",
+    "english_common_name": "Kalmegh Common 62",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_074",
+    "sanskrit_name": "Kutki_63",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 63",
+    "english_common_name": "Kutki Common 63",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_075",
+    "sanskrit_name": "Shilajit_64",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 64",
+    "english_common_name": "Shilajit Common 64",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_076",
+    "sanskrit_name": "Mulethi_65",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 65",
+    "english_common_name": "Mulethi Common 65",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_077",
+    "sanskrit_name": "Brahmi_66",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 66",
+    "english_common_name": "Brahmi Common 66",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_078",
+    "sanskrit_name": "Shatavari_67",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 67",
+    "english_common_name": "Shatavari Common 67",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_079",
+    "sanskrit_name": "Guggulu_68",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 68",
+    "english_common_name": "Guggulu Common 68",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_080",
+    "sanskrit_name": "Bhringraj_69",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 69",
+    "english_common_name": "Bhringraj Common 69",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_081",
+    "sanskrit_name": "Arjuna_70",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 70",
+    "english_common_name": "Arjuna Common 70",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_082",
+    "sanskrit_name": "Gokshura_71",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 71",
+    "english_common_name": "Gokshura Common 71",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_083",
+    "sanskrit_name": "Punarnava_72",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 72",
+    "english_common_name": "Punarnava Common 72",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_084",
+    "sanskrit_name": "Kalmegh_73",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 73",
+    "english_common_name": "Kalmegh Common 73",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_085",
+    "sanskrit_name": "Kutki_74",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 74",
+    "english_common_name": "Kutki Common 74",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_086",
+    "sanskrit_name": "Shilajit_75",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 75",
+    "english_common_name": "Shilajit Common 75",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_087",
+    "sanskrit_name": "Mulethi_76",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 76",
+    "english_common_name": "Mulethi Common 76",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_088",
+    "sanskrit_name": "Brahmi_77",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 77",
+    "english_common_name": "Brahmi Common 77",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_089",
+    "sanskrit_name": "Shatavari_78",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 78",
+    "english_common_name": "Shatavari Common 78",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_090",
+    "sanskrit_name": "Guggulu_79",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 79",
+    "english_common_name": "Guggulu Common 79",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_091",
+    "sanskrit_name": "Bhringraj_80",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 80",
+    "english_common_name": "Bhringraj Common 80",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_092",
+    "sanskrit_name": "Arjuna_81",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 81",
+    "english_common_name": "Arjuna Common 81",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_093",
+    "sanskrit_name": "Gokshura_82",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 82",
+    "english_common_name": "Gokshura Common 82",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_094",
+    "sanskrit_name": "Punarnava_83",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 83",
+    "english_common_name": "Punarnava Common 83",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_095",
+    "sanskrit_name": "Kalmegh_84",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 84",
+    "english_common_name": "Kalmegh Common 84",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_096",
+    "sanskrit_name": "Kutki_85",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 85",
+    "english_common_name": "Kutki Common 85",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_097",
+    "sanskrit_name": "Shilajit_86",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 86",
+    "english_common_name": "Shilajit Common 86",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_098",
+    "sanskrit_name": "Mulethi_87",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 87",
+    "english_common_name": "Mulethi Common 87",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_099",
+    "sanskrit_name": "Brahmi_88",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 88",
+    "english_common_name": "Brahmi Common 88",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_100",
+    "sanskrit_name": "Shatavari_89",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 89",
+    "english_common_name": "Shatavari Common 89",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_101",
+    "sanskrit_name": "Guggulu_90",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 90",
+    "english_common_name": "Guggulu Common 90",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_102",
+    "sanskrit_name": "Bhringraj_91",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 91",
+    "english_common_name": "Bhringraj Common 91",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_103",
+    "sanskrit_name": "Arjuna_92",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 92",
+    "english_common_name": "Arjuna Common 92",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_104",
+    "sanskrit_name": "Gokshura_93",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 93",
+    "english_common_name": "Gokshura Common 93",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_105",
+    "sanskrit_name": "Punarnava_94",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 94",
+    "english_common_name": "Punarnava Common 94",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_106",
+    "sanskrit_name": "Kalmegh_95",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 95",
+    "english_common_name": "Kalmegh Common 95",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_107",
+    "sanskrit_name": "Kutki_96",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 96",
+    "english_common_name": "Kutki Common 96",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_108",
+    "sanskrit_name": "Shilajit_97",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 97",
+    "english_common_name": "Shilajit Common 97",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_109",
+    "sanskrit_name": "Mulethi_98",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 98",
+    "english_common_name": "Mulethi Common 98",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_110",
+    "sanskrit_name": "Brahmi_99",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 99",
+    "english_common_name": "Brahmi Common 99",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_111",
+    "sanskrit_name": "Shatavari_100",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 100",
+    "english_common_name": "Shatavari Common 100",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_112",
+    "sanskrit_name": "Guggulu_101",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 101",
+    "english_common_name": "Guggulu Common 101",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_113",
+    "sanskrit_name": "Bhringraj_102",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 102",
+    "english_common_name": "Bhringraj Common 102",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_114",
+    "sanskrit_name": "Arjuna_103",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 103",
+    "english_common_name": "Arjuna Common 103",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_115",
+    "sanskrit_name": "Gokshura_104",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 104",
+    "english_common_name": "Gokshura Common 104",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_116",
+    "sanskrit_name": "Punarnava_105",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 105",
+    "english_common_name": "Punarnava Common 105",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_117",
+    "sanskrit_name": "Kalmegh_106",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 106",
+    "english_common_name": "Kalmegh Common 106",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_118",
+    "sanskrit_name": "Kutki_107",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 107",
+    "english_common_name": "Kutki Common 107",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_119",
+    "sanskrit_name": "Shilajit_108",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 108",
+    "english_common_name": "Shilajit Common 108",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_120",
+    "sanskrit_name": "Mulethi_109",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 109",
+    "english_common_name": "Mulethi Common 109",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_121",
+    "sanskrit_name": "Brahmi_110",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 110",
+    "english_common_name": "Brahmi Common 110",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_122",
+    "sanskrit_name": "Shatavari_111",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 111",
+    "english_common_name": "Shatavari Common 111",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_123",
+    "sanskrit_name": "Guggulu_112",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 112",
+    "english_common_name": "Guggulu Common 112",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_124",
+    "sanskrit_name": "Bhringraj_113",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 113",
+    "english_common_name": "Bhringraj Common 113",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_125",
+    "sanskrit_name": "Arjuna_114",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 114",
+    "english_common_name": "Arjuna Common 114",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_126",
+    "sanskrit_name": "Gokshura_115",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 115",
+    "english_common_name": "Gokshura Common 115",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_127",
+    "sanskrit_name": "Punarnava_116",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 116",
+    "english_common_name": "Punarnava Common 116",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_128",
+    "sanskrit_name": "Kalmegh_117",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 117",
+    "english_common_name": "Kalmegh Common 117",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_129",
+    "sanskrit_name": "Kutki_118",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 118",
+    "english_common_name": "Kutki Common 118",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_130",
+    "sanskrit_name": "Shilajit_119",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 119",
+    "english_common_name": "Shilajit Common 119",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_131",
+    "sanskrit_name": "Mulethi_120",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 120",
+    "english_common_name": "Mulethi Common 120",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_132",
+    "sanskrit_name": "Brahmi_121",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 121",
+    "english_common_name": "Brahmi Common 121",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_133",
+    "sanskrit_name": "Shatavari_122",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 122",
+    "english_common_name": "Shatavari Common 122",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_134",
+    "sanskrit_name": "Guggulu_123",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 123",
+    "english_common_name": "Guggulu Common 123",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_135",
+    "sanskrit_name": "Bhringraj_124",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 124",
+    "english_common_name": "Bhringraj Common 124",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_136",
+    "sanskrit_name": "Arjuna_125",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 125",
+    "english_common_name": "Arjuna Common 125",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_137",
+    "sanskrit_name": "Gokshura_126",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 126",
+    "english_common_name": "Gokshura Common 126",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_138",
+    "sanskrit_name": "Punarnava_127",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 127",
+    "english_common_name": "Punarnava Common 127",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_139",
+    "sanskrit_name": "Kalmegh_128",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 128",
+    "english_common_name": "Kalmegh Common 128",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_140",
+    "sanskrit_name": "Kutki_129",
+    "iast_transliteration": "Kutkia",
+    "hindi_name": "Kutki Hindi 129",
+    "english_common_name": "Kutki Common 129",
+    "botanical_binomial": "Kutki scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_141",
+    "sanskrit_name": "Shilajit_130",
+    "iast_transliteration": "Shilajita",
+    "hindi_name": "Shilajit Hindi 130",
+    "english_common_name": "Shilajit Common 130",
+    "botanical_binomial": "Shilajit scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_142",
+    "sanskrit_name": "Mulethi_131",
+    "iast_transliteration": "Mulethia",
+    "hindi_name": "Mulethi Hindi 131",
+    "english_common_name": "Mulethi Common 131",
+    "botanical_binomial": "Mulethi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_143",
+    "sanskrit_name": "Brahmi_132",
+    "iast_transliteration": "Brahmia",
+    "hindi_name": "Brahmi Hindi 132",
+    "english_common_name": "Brahmi Common 132",
+    "botanical_binomial": "Brahmi scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_144",
+    "sanskrit_name": "Shatavari_133",
+    "iast_transliteration": "Shatavaria",
+    "hindi_name": "Shatavari Hindi 133",
+    "english_common_name": "Shatavari Common 133",
+    "botanical_binomial": "Shatavari scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_145",
+    "sanskrit_name": "Guggulu_134",
+    "iast_transliteration": "Guggulua",
+    "hindi_name": "Guggulu Hindi 134",
+    "english_common_name": "Guggulu Common 134",
+    "botanical_binomial": "Guggulu scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_146",
+    "sanskrit_name": "Bhringraj_135",
+    "iast_transliteration": "Bhringraja",
+    "hindi_name": "Bhringraj Hindi 135",
+    "english_common_name": "Bhringraj Common 135",
+    "botanical_binomial": "Bhringraj scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_147",
+    "sanskrit_name": "Arjuna_136",
+    "iast_transliteration": "Arjunaa",
+    "hindi_name": "Arjuna Hindi 136",
+    "english_common_name": "Arjuna Common 136",
+    "botanical_binomial": "Arjuna scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_148",
+    "sanskrit_name": "Gokshura_137",
+    "iast_transliteration": "Gokshuraa",
+    "hindi_name": "Gokshura Hindi 137",
+    "english_common_name": "Gokshura Common 137",
+    "botanical_binomial": "Gokshura scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_149",
+    "sanskrit_name": "Punarnava_138",
+    "iast_transliteration": "Punarnavaa",
+    "hindi_name": "Punarnava Hindi 138",
+    "english_common_name": "Punarnava Common 138",
+    "botanical_binomial": "Punarnava scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  },
+  {
+    "id": "drug_150",
+    "sanskrit_name": "Kalmegh_139",
+    "iast_transliteration": "Kalmegha",
+    "hindi_name": "Kalmegh Hindi 139",
+    "english_common_name": "Kalmegh Common 139",
+    "botanical_binomial": "Kalmegh scientificus L.",
+    "parts_used": [
+      "Leaf",
+      "Root"
+    ],
+    "afi_reference": "AFI Vol 2",
+    "classical_formulation_presence": [],
+    "key_phytochemicals": [
+      "ActiveCompoundA"
+    ],
+    "biopiracy_precedent": null
+  }
+]

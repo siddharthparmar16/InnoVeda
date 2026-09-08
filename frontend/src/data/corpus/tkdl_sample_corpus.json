@@ -1,0 +1,956 @@
+[
+  {
+    "tkdl_id": "TKDL_001",
+    "title": "Use of Haridra (Turmeric) for wound healing",
+    "disease": "Vrana (Wound / Ulcer)",
+    "ingredients": [
+      "Haridra / Curcuma longa"
+    ],
+    "classical_reference": "Charaka Samhita, Chikitsa Sthana 25",
+    "translation": "Turmeric powder applied externally helps in wound healing and acts as an antiseptic.",
+    "ipc_codes": [
+      "A61K 36/9066",
+      "A61P 17/02"
+    ]
+  },
+  {
+    "tkdl_id": "TKDL_002",
+    "title": "Use of Guduchi (Tinospora cordifolia) for fever",
+    "disease": "Jwara (Fever)",
+    "ingredients": [
+      "Guduchi / Tinospora cordifolia"
+    ],
+    "classical_reference": "Sushruta Samhita, Uttara Tantra 39",
+    "translation": "Decoction of Guduchi stem is indicated for chronic fevers and immune modulation.",
+    "ipc_codes": [
+      "A61K 36/19",
+      "A61P 29/00"
+    ]
+  },
+  {
+    "tkdl_id": "TKDL_003",
+    "title": "Use of Nimba (Neem) for skin diseases",
+    "disease": "Kustha (Skin diseases)",
+    "ingredients": [
+      "Nimba / Azadirachta indica"
+    ],
+    "classical_reference": "Astanga Hridaya, Sutra Sthana 15",
+    "translation": "Paste of Neem leaves and bark is highly effective against various skin infections and itching.",
+    "ipc_codes": [
+      "A61K 36/58",
+      "A61P 17/00"
+    ]
+  },
+  {
+    "tkdl_id": "TKDL_0004",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0005",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0006",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0007",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0008",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0009",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0010",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0011",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0012",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0013",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0014",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0015",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0016",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0017",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0018",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0019",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0020",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0021",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0022",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0023",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0024",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0025",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0026",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0027",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0028",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0029",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0030",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0031",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0032",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0033",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0034",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0035",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0036",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0037",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0038",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0039",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0040",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0041",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0042",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0043",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0044",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0045",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0046",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0047",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0048",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0049",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0050",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0051",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0052",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0053",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0054",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0055",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0056",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0057",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0058",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0059",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  },
+  {
+    "tkdl_id": "TKDL_0060",
+    "disease_concept": "General Ailment",
+    "ipc_codes": [
+      "A61K36/00"
+    ],
+    "formulation_composition": [
+      {
+        "ingredient": "Brahmi",
+        "part": "Leaf",
+        "proportion": "1 part"
+      }
+    ],
+    "prior_art_date": "1000 CE",
+    "abstract": "A classical formulation used for treating fever."
+  }
+]
