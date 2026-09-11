@@ -4,14 +4,16 @@ import React, { useState } from 'react';
 import { 
   ShieldCheck, Download, ExternalLink, X, Building2, User, FileCheck, AlertCircle, Copy, Check 
 } from 'lucide-react';
-import { LegalVerdict, FacilitatorDossier } from '@/types/domain';
+import { LegalVerdict, FacilitatorDossier, SupportedLanguage } from '@/types/domain';
+import { t } from '@/lib/i18n';
 
 interface FacilitatorModalProps {
   verdict: LegalVerdict;
   onClose: () => void;
+  language?: SupportedLanguage;
 }
 
-export default function FacilitatorEscalationModal({ verdict, onClose }: FacilitatorModalProps) {
+export default function FacilitatorEscalationModal({ verdict, onClose, language = 'EN' }: FacilitatorModalProps) {
   const [applicantName, setApplicantName] = useState('');
   const [organization, setOrganization] = useState('');
   const [copied, setCopied] = useState(false);
@@ -126,34 +128,34 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
         maxHeight: '90vh',
         overflowY: 'auto',
         borderRadius: '16px',
-        border: '1px solid rgba(16, 185, 129, 0.3)',
-        background: '#0d1322',
-        boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.7)'
+        border: '1px solid var(--border-color)',
+        background: 'var(--bg-card)',
+        boxShadow: 'var(--shadow-elevated)'
       }}>
         {/* Modal Header */}
         <div style={{
           padding: '1.5rem 2rem',
-          borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+          borderBottom: '1px solid var(--border-color)',
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'center',
-          background: 'rgba(16, 185, 129, 0.05)'
+          background: 'rgba(45, 122, 91, 0.05)'
         }}>
           <div className="flex items-center gap-3">
             <div style={{
               width: '40px', height: '40px', borderRadius: '10px',
-              background: 'rgba(16, 185, 129, 0.2)',
+              background: 'rgba(45, 122, 91, 0.15)',
               border: '1px solid var(--accent-emerald)',
               display: 'flex', alignItems: 'center', justifyContent: 'center'
             }}>
               <ShieldCheck className="text-emerald" size={24} />
             </div>
             <div>
-              <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'white' }}>
-                Human IP Facilitator Escalation
+              <h3 style={{ fontSize: '1.25rem', fontWeight: 700, color: 'var(--text-primary)' }}>
+                {t('facilitator_modal_title', language)}
               </h3>
               <p style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
-                Ministry of Ayush & Startup India IP Facilitation Protocol
+                {t('facilitator_modal_subtitle', language)}
               </p>
             </div>
           </div>
@@ -168,8 +170,8 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
         {/* Modal Body */}
         <div style={{ padding: '2rem' }}>
           <div style={{
-            background: 'rgba(59, 130, 246, 0.1)',
-            border: '1px solid rgba(59, 130, 246, 0.3)',
+            background: 'rgba(43, 108, 176, 0.08)',
+            border: '1px solid rgba(43, 108, 176, 0.25)',
             borderRadius: '10px',
             padding: '1rem 1.25rem',
             marginBottom: '1.5rem',
@@ -178,8 +180,8 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
             alignItems: 'flex-start'
           }}>
             <AlertCircle size={20} className="text-blue" style={{ flexShrink: 0, marginTop: '2px' }} />
-            <div style={{ fontSize: '0.85rem', color: '#93c5fd', lineHeight: 1.5 }}>
-              <strong>Pre-Prosecution Handoff:</strong> This tool compiles your formulation evaluation into an official <strong>Ayush IP Facilitation Dossier</strong>. You can take this directly to a registered Patent Agent or Ministry of Ayush Facilitator for formal representation.
+            <div style={{ fontSize: '0.85rem', color: 'var(--accent-blue)', lineHeight: 1.5 }}>
+              <strong>{t('facilitator_preprosecution_title', language)}</strong> {t('facilitator_preprosecution_body', language)}
             </div>
           </div>
 
@@ -187,11 +189,11 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem', marginBottom: '1.5rem' }}>
             <div>
               <label style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', display: 'block', marginBottom: '0.4rem' }}>
-                Innovator / Applicant Name (Optional)
+                {t('facilitator_innovator_label', language)}
               </label>
               <div style={{
                 display: 'flex', alignItems: 'center', gap: '0.5rem',
-                background: 'rgba(0,0,0,0.3)', border: '1px solid var(--border-color)',
+                background: 'var(--bg-input)', border: '1px solid var(--border-color)',
                 borderRadius: '8px', padding: '0.5rem 0.75rem'
               }}>
                 <User size={16} style={{ color: 'var(--text-secondary)' }} />
@@ -200,18 +202,18 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
                   value={applicantName}
                   onChange={e => setApplicantName(e.target.value)}
                   placeholder="e.g. Dr. A. Sharma"
-                  style={{ background: 'transparent', border: 'none', color: 'white', outline: 'none', fontSize: '0.9rem', width: '100%' }}
+                  style={{ background: 'transparent', border: 'none', color: 'var(--text-primary)', outline: 'none', fontSize: '0.9rem', width: '100%' }}
                 />
               </div>
             </div>
 
             <div>
               <label style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', display: 'block', marginBottom: '0.4rem' }}>
-                Entity / Institution (Optional)
+                {t('facilitator_entity_label', language)}
               </label>
               <div style={{
                 display: 'flex', alignItems: 'center', gap: '0.5rem',
-                background: 'rgba(0,0,0,0.3)', border: '1px solid var(--border-color)',
+                background: 'var(--bg-input)', border: '1px solid var(--border-color)',
                 borderRadius: '8px', padding: '0.5rem 0.75rem'
               }}>
                 <Building2 size={16} style={{ color: 'var(--text-secondary)' }} />
@@ -220,7 +222,7 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
                   value={organization}
                   onChange={e => setOrganization(e.target.value)}
                   placeholder="e.g. Ayush Biotech Lab"
-                  style={{ background: 'transparent', border: 'none', color: 'white', outline: 'none', fontSize: '0.9rem', width: '100%' }}
+                  style={{ background: 'transparent', border: 'none', color: 'var(--text-primary)', outline: 'none', fontSize: '0.9rem', width: '100%' }}
                 />
               </div>
             </div>
@@ -228,7 +230,7 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
 
           {/* Dossier Preview Summary */}
           <div style={{
-            background: 'rgba(0, 0, 0, 0.4)',
+            background: 'var(--bg-elevated)',
             border: '1px solid var(--border-color)',
             borderRadius: '10px',
             padding: '1.25rem',
@@ -236,29 +238,29 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
           }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.75rem' }}>
               <span style={{ fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', color: 'var(--text-secondary)' }}>
-                Dossier Identifier: <strong style={{ color: 'white' }}>{dossier.dossier_id}</strong>
+                {t('facilitator_dossier_id_label', language)} <strong style={{ color: 'var(--text-primary)' }}>{dossier.dossier_id}</strong>
               </span>
               <span className="status-badge" style={{
-                background: verdict.is_patentable ? 'rgba(16, 185, 129, 0.2)' : 'rgba(239, 68, 68, 0.2)',
-                color: verdict.is_patentable ? '#34d399' : '#f87171',
+                background: verdict.is_patentable ? 'rgba(45, 122, 91, 0.15)' : 'rgba(184, 58, 48, 0.15)',
+                color: verdict.is_patentable ? 'var(--accent-emerald)' : 'var(--accent-crimson)',
                 fontSize: '0.75rem'
               }}>
                 {verdict.is_patentable ? 'Process Viable' : 'Section 3(p) Barred'}
               </span>
             </div>
 
-            <div style={{ fontSize: '0.9rem', color: 'white', fontWeight: 600, marginBottom: '0.5rem' }}>
-              Claim: &ldquo;{verdict.query}&rdquo;
+            <div style={{ fontSize: '0.9rem', color: 'var(--text-primary)', fontWeight: 600, marginBottom: '0.5rem' }}>
+              {t('facilitator_claim_label', language)} &ldquo;{verdict.query}&rdquo;
             </div>
 
             <div style={{ fontSize: '0.825rem', color: 'var(--text-secondary)', marginBottom: '0.75rem' }}>
-              <strong>Key Mandates:</strong> {verdict.nba_approval_required ? '⚠️ National Biodiversity Authority (NBA) Prior Approval Form III Mandatory' : '✓ Standard IPR Procedure'}
+              <strong>{t('facilitator_mandates_label', language)}</strong> {verdict.nba_approval_required ? '⚠️ National Biodiversity Authority (NBA) Prior Approval Form III Mandatory' : '✓ Standard IPR Procedure'}
             </div>
 
             {/* Checklist */}
-            <div style={{ fontSize: '0.8rem', color: '#cbd5e1' }}>
+            <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
               <strong style={{ display: 'block', marginBottom: '0.4rem', color: 'var(--accent-emerald)' }}>
-                Facilitator Immediate Checklist:
+                {t('facilitator_checklist_title', language)}
               </strong>
               <ul style={{ listStyle: 'none', padding: 0 }}>
                 {dossier.patent_attorney_checklist.slice(0, 3).map((item, idx) => (
@@ -273,7 +275,7 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
           {/* Official Facilitation Channels */}
           <div style={{ marginBottom: '1.5rem' }}>
             <div style={{ fontSize: '0.8rem', color: 'var(--text-secondary)', marginBottom: '0.5rem', fontWeight: 600 }}>
-              Official Facilitation Directories:
+              {t('facilitator_directories_title', language)}
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
               <a 
@@ -283,7 +285,7 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
                 className="btn"
                 style={{ fontSize: '0.8rem', padding: '0.6rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem', textDecoration: 'none' }}
               >
-                IP India Registered Agents <ExternalLink size={14} />
+                {t('facilitator_link_ip', language)} <ExternalLink size={14} />
               </a>
               <a 
                 href="https://ayush.gov.in" 
@@ -292,7 +294,7 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
                 className="btn"
                 style={{ fontSize: '0.8rem', padding: '0.6rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.4rem', textDecoration: 'none' }}
               >
-                Ministry of Ayush Facilitation Cell <ExternalLink size={14} />
+                {t('facilitator_link_ayush', language)} <ExternalLink size={14} />
               </a>
             </div>
           </div>
@@ -305,14 +307,14 @@ ${dossier.patent_attorney_checklist.map(item => `- [ ] ${item}`).join('\n')}
               style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.875rem' }}
             >
               {copied ? <Check size={16} className="text-emerald" /> : <Copy size={16} />}
-              {copied ? 'Copied Brief' : 'Copy Brief'}
+              {copied ? t('facilitator_copied', language) : t('facilitator_copy', language)}
             </button>
             <button 
               onClick={handleDownload} 
               className="btn btn-primary" 
               style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.875rem' }}
             >
-              <Download size={16} /> Download Case Dossier (.md)
+              <Download size={16} /> {t('facilitator_download', language)}
             </button>
           </div>
         </div>

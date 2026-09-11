@@ -10,18 +10,20 @@ Exposes the multilayer fallback chain as a REST API with:
 
 import logging
 import json
+import asyncio
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request, Depends
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import StreamingResponse, JSONResponse
 from pydantic import BaseModel, Field
 from typing import Optional
+import cachetools
 
 from config import get_settings
 from key_manager import KeyManager
 from fallback_chain import GeminiFallbackChain, AllKeysExhaustedError
-from rag_engine import rag_engine
+from rag_engine import RAGEngine
 
 # ── Logging Configuration ────────────────────────────────
 logging.basicConfig(
@@ -31,10 +33,9 @@ logging.basicConfig(
 )
 logger = logging.getLogger("gemini-fallback")
 
-# ── Global Instances (initialized in lifespan) ───────────
-key_manager: Optional[KeyManager] = None
-chain: Optional[GeminiFallbackChain] = None
-
+# ── Robust TTL Cache for RAG ─────────────────────────────
+# Cache up to 200 items, each expiring after 10 minutes (600 seconds)
+rag_cache = cachetools.TTLCache(maxsize=200, ttl=600)
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 #  Application Lifespan
@@ -43,7 +44,6 @@ chain: Optional[GeminiFallbackChain] = None
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Initialize and teardown the fallback chain on server start/stop."""
-    global key_manager, chain
     settings = get_settings()
 
     if not settings.GEMINI_API_KEYS:
@@ -52,16 +52,20 @@ async def lifespan(app: FastAPI):
             "Set GEMINI_API_KEYS in your .env file (comma-separated)."
         )
 
-    key_manager = KeyManager(
+    app.state.key_manager = KeyManager(
         api_keys=settings.GEMINI_API_KEYS,
         max_retries_per_key=settings.MAX_RETRIES_PER_KEY,
         cooldown_seconds=settings.KEY_COOLDOWN_SECONDS,
     )
-    chain = GeminiFallbackChain(key_manager)
+    app.state.chain = GeminiFallbackChain(app.state.key_manager)
+    
+    rag = RAGEngine()
+    rag._initialize_collection() # Pre-load model on startup instead of lazily
+    app.state.rag_engine = rag
 
     logger.info("━" * 55)
     logger.info("🚀 Gemini Fallback Chain API — ONLINE")
-    logger.info(f"   Keys loaded      : {key_manager.total_keys}")
+    logger.info(f"   Keys loaded      : {app.state.key_manager.total_keys}")
     logger.info(f"   Default model     : {settings.GEMINI_DEFAULT_MODEL}")
     logger.info(f"   Max retries/key   : {settings.MAX_RETRIES_PER_KEY}")
     logger.info(f"   Key cooldown      : {settings.KEY_COOLDOWN_SECONDS}s")
@@ -96,6 +100,28 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Global exception handler for unexpected errors
+@app.exception_handler(Exception)
+async def global_exception_handler(request: Request, exc: Exception):
+    logger.error(f"Unhandled exception: {exc}", exc_info=True)
+    return JSONResponse(
+        status_code=500,
+        content={"detail": "An unexpected internal server error occurred."}
+    )
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#  Dependencies
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+def get_chain(request: Request) -> GeminiFallbackChain:
+    return request.app.state.chain
+
+def get_key_manager(request: Request) -> KeyManager:
+    return request.app.state.key_manager
+
+def get_rag_engine(request: Request) -> RAGEngine:
+    return request.app.state.rag_engine
 
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -155,14 +181,22 @@ class HealthResponse(BaseModel):
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 @app.post("/generate", response_model=GenerateResponse)
-async def generate(request: GenerateRequest):
+async def generate(request: GenerateRequest, chain: GeminiFallbackChain = Depends(get_chain)):
     """Generate content using Gemini with automatic key fallback.
 
     If one API key fails (rate limit, quota, auth error, timeout, server error),
     the system automatically tries the next available key in the chain.
     """
     if request.stream:
-        return await generate_stream(request)
+        return await generate_stream(request, chain=chain)
+
+    import hashlib
+    cache_key = hashlib.sha256(f"gen_{request.prompt}".encode('utf-8')).hexdigest()
+    if cache_key in rag_cache:
+        logger.info(f"Generate Cache HIT for prompt hash: {cache_key}")
+        cached_result = rag_cache[cache_key].copy()
+        cached_result["cache_hit"] = True
+        return GenerateResponse(**cached_result)
 
     try:
         result = await chain.generate_content(
@@ -174,6 +208,12 @@ async def generate(request: GenerateRequest):
             top_p=request.top_p,
             top_k=request.top_k,
         )
+        
+        # Save to TTLCache only for healthy responses
+        finish_reason = result.get("finish_reason", "")
+        if "MAX_TOKENS" not in str(finish_reason) and len(result.get("text", "").strip()) > 50:
+            rag_cache[cache_key] = result
+        
         return GenerateResponse(**result)
 
     except AllKeysExhaustedError as e:
@@ -187,40 +227,48 @@ async def generate(request: GenerateRequest):
             },
         )
 
-# Simple bounded in-memory cache for demo optimizations
-from collections import OrderedDict
-_rag_cache = OrderedDict()
-MAX_CACHE_SIZE = 100
 
 @app.post("/generate_rag", response_model=GenerateResponse)
-async def generate_rag(request: GenerateRequest):
+async def generate_rag(
+    request: GenerateRequest,
+    chain: GeminiFallbackChain = Depends(get_chain),
+    rag: RAGEngine = Depends(get_rag_engine)
+):
     """
     RAG-enabled endpoint.
     Retrieves semantic chunks from ChromaDB using the incoming prompt (query),
     injects them into the system_instruction, and delegates to Gemini fallback chain.
     """
-    cache_key = hash(request.prompt)
-    if cache_key in _rag_cache:
+    import hashlib
+    cache_key = hashlib.sha256(request.prompt.encode('utf-8')).hexdigest()
+    if cache_key in rag_cache:
         logger.info(f"RAG Cache HIT for prompt hash: {cache_key}")
-        # Move to end to mark as recently used
-        _rag_cache.move_to_end(cache_key)
-        cached_result = _rag_cache[cache_key].copy()
+        cached_result = rag_cache[cache_key].copy()
         cached_result["cache_hit"] = True
         return GenerateResponse(**cached_result)
 
-    # Search ChromaDB (non-blocking) using retrieval_query if provided
-    import asyncio
+    # Search ChromaDB asynchronously with a hard cap so RAG never stalls the request
     search_query = request.retrieval_query if request.retrieval_query else request.prompt
-    retrieved_chunks = await asyncio.to_thread(rag_engine.search, query=search_query, top_k=3)
-    formatted_context = rag_engine.format_context_for_prompt(retrieved_chunks)
+    try:
+        retrieved_chunks = await asyncio.wait_for(
+            rag.search_async(query=search_query[:1000], top_k=3, distance_threshold=1.5),
+            timeout=5.0,
+        )
+    except asyncio.TimeoutError:
+        logger.warning("RAG search timed out after 5s — proceeding without context")
+        retrieved_chunks = []
+    formatted_context = rag.format_context_for_prompt(retrieved_chunks)
     
-    # Prepend context to existing system instruction
+    # Prepend context to existing system instruction (ample room for context + schema)
     base_instruction = request.system_instruction or "You are a helpful AI assistant."
     augmented_instruction = f"{base_instruction}\n\n{formatted_context}"
+    if len(augmented_instruction) > 12000:
+        augmented_instruction = augmented_instruction[:12000]
+    prompt = request.prompt[:4000]
     
     try:
         result = await chain.generate_content(
-            prompt=request.prompt,
+            prompt=prompt,
             model=request.model,
             system_instruction=augmented_instruction,
             temperature=request.temperature,
@@ -228,12 +276,14 @@ async def generate_rag(request: GenerateRequest):
             top_p=request.top_p,
             top_k=request.top_k,
         )
-        
-        # Save to cache and enforce limit
-        _rag_cache[cache_key] = result
-        if len(_rag_cache) > MAX_CACHE_SIZE:
-            _rag_cache.popitem(last=False)
-            
+
+        # Save to TTLCache only for healthy, non-truncated responses
+        finish_reason = result.get("finish_reason", "")
+        if "MAX_TOKENS" not in str(finish_reason) and len(result.get("text", "").strip()) > 50:
+            rag_cache[cache_key] = result
+        else:
+            logger.warning("Skipping cache for truncated or short response")
+
         return GenerateResponse(**result)
 
     except AllKeysExhaustedError as e:
@@ -248,10 +298,8 @@ async def generate_rag(request: GenerateRequest):
         )
 
 
-
-
 @app.post("/generate/stream")
-async def generate_stream(request: GenerateRequest):
+async def generate_stream(request: GenerateRequest, chain: GeminiFallbackChain = Depends(get_chain)):
     """Stream generated content using Server-Sent Events (SSE).
 
     Each chunk is sent as a JSON object in SSE format:
@@ -291,7 +339,7 @@ async def generate_stream(request: GenerateRequest):
 
 
 @app.get("/health", response_model=HealthResponse)
-async def health():
+async def health(key_manager: KeyManager = Depends(get_key_manager)):
     """Health check and key status dashboard.
 
     Returns the status of each API key including:
@@ -331,6 +379,7 @@ async def root():
         "health": "/health",
         "endpoints": {
             "POST /generate": "Generate content with automatic key fallback",
+            "POST /generate_rag": "Generate content using RAG with semantic search",
             "POST /generate/stream": "Stream content via SSE with key fallback",
             "GET /health": "Key health dashboard and monitoring",
         },
@@ -349,6 +398,6 @@ if __name__ == "__main__":
         "main:app",
         host=settings.HOST,
         port=settings.PORT,
-        reload=True,
-        log_level="info",
+        reload=False,
+        log_level="warning",
     )

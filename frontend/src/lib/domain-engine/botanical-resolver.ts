@@ -46,6 +46,22 @@ export function resolveBotanicalEntities(query: string): BotanicalEntity[] {
         ...(drug as BotanicalEntity),
         matched_alias: matchedAlias
       });
+      continue;
+    }
+
+    // Fallback: match "<Genus> <species>" short binomial (e.g. query says
+    // "Tinospora cordifolia" but ontology stores "Tinospora cordifolia (Willd.) Miers").
+    const binomial = String((drug as Record<string, unknown>)['botanical_binomial'] ?? '');
+    const bm = binomial.match(/^([A-Z][a-z]+)\s+([a-z]+)/);
+    if (bm) {
+      const short = `${bm[1]} ${bm[2]}`.toLowerCase();
+      const escapedShort = short.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      if (new RegExp(`\\b${escapedShort}\\b`, 'i').test(normalizedQuery)) {
+        matchedEntities.push({
+          ...(drug as BotanicalEntity),
+          matched_alias: short,
+        });
+      }
     }
   }
 

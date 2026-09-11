@@ -175,6 +175,19 @@ class KeyManager:
                 # Advance index to next key for future requests
                 self._current_index = (self._current_index + 1) % len(self._keys)
 
+    def reset_key_for_model_retry(self, key_state: KeyState) -> None:
+        """Clear cooldown for a key when retrying with a different model.
+
+        A 503/overload failure is model-capacity exhaustion, not key fault —
+        the same key will usually work fine against a fallback model, so don't
+        let cooldown block the immediate retry.
+        """
+        with self._lock:
+            key_state.consecutive_failures = 0
+            if key_state.status == KeyStatus.COOLDOWN:
+                key_state.status = KeyStatus.ACTIVE
+                key_state.cooldown_until = None
+
     def get_all_key_stats(self) -> List[Dict]:
         """Return health/status stats for all keys (for monitoring/dashboard)."""
         with self._lock:

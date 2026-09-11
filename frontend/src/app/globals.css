@@ -1,29 +1,96 @@
-:root {
-  /* Classy Deep Dark Mode */
-  --bg-primary: #020617;       /* Darker Slate */
-  --bg-secondary: #0f172a;     /* Deep Navy */
-  --bg-glass: rgba(15, 23, 42, 0.4); 
-  --bg-glass-hover: rgba(30, 41, 59, 0.5);
+:root,
+[data-theme='dark'],
+html.dark {
+  /* Classy Obsidian Noir & Warm Champagne Theme (Dark) */
+  --bg-primary: #0b0d14;       /* Deep Obsidian Noir */
+  --bg-secondary: #121622;     /* Refined Carbon Slate */
+  --bg-sidebar: #0e111a;       /* Deep Sidebar Obsidian */
+  --bg-card: rgba(18, 22, 34, 0.75);
+  --bg-glass: rgba(18, 22, 34, 0.7); 
+  --bg-glass-hover: rgba(28, 34, 52, 0.8);
+  --bg-input: rgba(255, 255, 255, 0.04);
   
-  --text-primary: #f8fafc;     /* Softer white */
-  --text-secondary: #94a3b8;   
-  --text-muted: #64748b;
+  --text-primary: #f6f5f1;     /* Warm Ivory Alabaster */
+  --text-secondary: #9da4b6;   /* Soft Slate Silver */
+  --text-muted: #626a7e;       /* Muted Charcoal Gray */
 
-  /* Elegant Glowing Accents */
-  --accent-primary: #10b981;   
+  /* Timeless Brushed Champagne Gold Accents */
+  --accent-gold: #c9a86a;
+  --accent-gold-light: #e0c897;
+  --accent-gold-dark: #9f8045;
+  --accent-gold-glow: rgba(201, 168, 106, 0.25);
+
+  --accent-primary: #c9a86a;   
   --accent-emerald: #10b981;   
   --accent-amber: #f59e0b;     
   --accent-crimson: #ef4444;   
   --accent-blue: #3b82f6;      
 
-  /* Premium Minimalist Borders */
-  --border-color: rgba(255, 255, 255, 0.05); 
-  --border-highlight: rgba(16, 185, 129, 0.15);
-  --border-hover: rgba(255, 255, 255, 0.1);
+  /* Premium Minimalist Hairline Borders */
+  --border-color: rgba(255, 255, 255, 0.08); 
+  --border-highlight: rgba(201, 168, 106, 0.35);
+  --border-hover: rgba(255, 255, 255, 0.16);
   
   /* Soft, Elegant Drop Shadows */
-  --shadow-glow: 0 10px 40px -10px rgba(16, 185, 129, 0.1); 
-  --shadow-glass: 0 4px 24px -4px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  --shadow-glow: 0 10px 40px -10px rgba(201, 168, 106, 0.15); 
+  --shadow-glass: 0 8px 32px -4px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+
+  --font-serif: var(--font-cinzel), 'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-sans: var(--font-outfit), -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Convenience aliases used across components */
+  --gold: #c9a86a;
+  --bg-elevated: rgba(26, 32, 48, 0.85);
+  --border-gold: rgba(201, 168, 106, 0.3);
+  --shadow-elevation: 0 8px 32px -4px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  --text-primary-inverse: #0b0d14;
+}
+
+[data-theme='light'],
+html.light {
+  /* Royal Alabaster Parchment & Antique Gold Heritage Theme (Light) */
+  --bg-primary: #fbf9f4;       /* Warm Ayurvedic Heritage Parchment Canvas */
+  --bg-secondary: #ffffff;     /* Pure Snow White Card Surface */
+  --bg-sidebar: #f5efe6;       /* Warm Cream Architectural Sidebar */
+  --bg-card: #ffffff;          /* Crisp White Card Surface */
+  --bg-glass: rgba(255, 255, 255, 0.94);
+  --bg-glass-hover: #f3ede2;
+  --bg-input: #f0ece1;
+  --bg-elevated: #f3ede2;      /* Warm golden-cream parchment for notice banners */
+
+  --text-primary: #1e1915;     /* Deep Warm Espresso Ink */
+  --text-secondary: #595148;   /* Warm Charcoal Slate */
+  --text-muted: #8c8275;       /* Warm Sand / Taupe */
+
+  /* Rich Antique Gold for High Contrast against Light Canvas */
+  --accent-gold: #ba8d32;
+  --accent-gold-light: #d4a648;
+  --accent-gold-dark: #8c6014;
+  --accent-gold-glow: rgba(186, 141, 50, 0.2);
+
+  --accent-primary: #ba8d32;
+  --accent-emerald: #2d7a5b;   /* Deep Botanical Herbal Forest Green */
+  --accent-amber: #b87e1e;     /* Turmeric Amber */
+  --accent-crimson: #b83a30;   /* Terracotta Crimson */
+  --accent-blue: #2b6cb0;
+
+  /* Warm Hairline Parchment Borders */
+  --border-color: #e5decb;
+  --border-highlight: rgba(186, 141, 50, 0.45);
+  --border-hover: #d2c6af;
+  --border-gold: rgba(186, 141, 50, 0.35);
+
+  /* Clean Luminous Elevation Shadows */
+  --shadow-glow: 0 8px 24px -4px rgba(186, 141, 50, 0.2);
+  --shadow-glass: 0 4px 20px -2px rgba(138, 120, 95, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --shadow-elevation: 0 3px 12px -2px rgba(138, 120, 95, 0.08), 0 1px 3px rgba(138, 120, 95, 0.05);
+
+  --font-serif: var(--font-cinzel), 'Cinzel', 'Playfair Display', Georgia, serif;
+  --font-sans: var(--font-outfit), -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Convenience aliases (light mode) */
+  --gold: #ba8d32;
+  --text-primary-inverse: #ffffff;
 }
 
 * {
@@ -37,11 +104,18 @@ body {
   color: var(--text-primary);
   font-family: var(--font-outfit), -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
   min-height: 100vh;
-  /* Classy subtle background radial gradients */
+  transition: background-color 0.25s cubic-bezier(0.16, 1, 0.3, 1), color 0.25s cubic-bezier(0.16, 1, 0.3, 1);
   background-image: 
-    radial-gradient(circle at 15% 50%, rgba(16, 185, 129, 0.04) 0%, transparent 50%),
-    radial-gradient(circle at 85% 30%, rgba(59, 130, 246, 0.03) 0%, transparent 50%);
+    radial-gradient(circle at 15% 30%, rgba(201, 168, 106, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 85% 70%, rgba(16, 185, 129, 0.04) 0%, transparent 50%);
   background-attachment: fixed;
+}
+
+[data-theme='light'] body,
+html.light body {
+  background-image: 
+    radial-gradient(circle at 15% 30%, rgba(180, 131, 40, 0.06) 0%, transparent 50%),
+    radial-gradient(circle at 85% 70%, rgba(5, 150, 105, 0.04) 0%, transparent 50%);
 }
 
 @keyframes marquee {
@@ -116,6 +190,22 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   transform: translateY(-2px);
   box-shadow: 0 12px 30px -10px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+[data-theme='light'] .glass-panel,
+html.light .glass-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-top: 1px solid var(--border-color);
+  box-shadow: var(--shadow-glass);
+}
+
+[data-theme='light'] .glass-panel:hover,
+html.light .glass-panel:hover {
+  background: var(--bg-card);
+  border-color: var(--border-hover);
+  border-top: 1px solid var(--border-hover);
+  box-shadow: 0 8px 24px -4px rgba(138, 120, 95, 0.12);
 }
 
 .fade-in-up {
@@ -255,3 +345,227 @@ body {
 .mb-4 { margin-bottom: 1rem; }
 .mb-8 { margin-bottom: 2rem; }
 .text-center { text-align: center; }
+
+/* Luxury Typography and Styling */
+.font-serif-title {
+  font-family: var(--font-serif);
+  letter-spacing: -0.01em;
+}
+
+.luxury-heading {
+  font-family: var(--font-serif);
+  color: var(--text-primary);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+.luxury-subtext {
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent-gold);
+  font-weight: 600;
+}
+
+.luxury-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-card:hover {
+  border-color: var(--border-highlight);
+  box-shadow: 0 12px 32px -8px rgba(0, 0, 0, 0.6), 0 0 20px -8px var(--accent-gold-glow);
+  transform: translateY(-2px);
+}
+
+[data-theme='light'] .luxury-card,
+html.light .luxury-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-elevation);
+}
+
+[data-theme='light'] .luxury-card:hover,
+html.light .luxury-card:hover {
+  border-color: var(--border-highlight);
+  box-shadow: 0 10px 24px -4px rgba(138, 120, 95, 0.12), 0 0 16px -4px var(--accent-gold-glow);
+}
+
+.btn-gold {
+  background: linear-gradient(135deg, var(--accent-gold) 0%, var(--accent-gold-dark) 100%);
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 16px -2px rgba(201, 168, 106, 0.3);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-gold:hover {
+  background: linear-gradient(135deg, var(--accent-gold-light) 0%, var(--accent-gold) 100%);
+  box-shadow: 0 6px 24px 0 rgba(201, 168, 106, 0.4);
+  transform: translateY(-1px);
+}
+
+[data-theme='light'] .btn-gold,
+html.light .btn-gold {
+  background: linear-gradient(135deg, #c59b27 0%, #a77c22 100%);
+  color: #ffffff;
+  border: 1px solid rgba(186, 141, 50, 0.35);
+  box-shadow: 0 4px 14px -2px rgba(186, 141, 50, 0.3);
+}
+
+[data-theme='light'] .btn-gold:hover,
+html.light .btn-gold:hover {
+  background: linear-gradient(135deg, #d4a638 0%, #b3861b 100%);
+  box-shadow: 0 6px 20px 0 rgba(186, 141, 50, 0.4);
+}
+
+/* Custom Luxury Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-gold);
+}
+
+/* Light mode specific scrollbar */
+[data-theme='light'] ::-webkit-scrollbar-track,
+html.light ::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+[data-theme='light'] ::-webkit-scrollbar-thumb,
+html.light ::-webkit-scrollbar-thumb {
+  background: rgba(15, 23, 42, 0.15);
+}
+
+/* Print Styles for Vector-Crisp PDF Export */
+@media print {
+  /* Hide application shell when printing */
+  .app-sidebar,
+  header,
+  nav,
+  button,
+  .no-print {
+    display: none !important;
+  }
+
+  body, html {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 11pt !important;
+    line-height: 1.4 !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  .print-page {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0.5in !important;
+    box-shadow: none !important;
+    border: none !important;
+    page-break-after: always;
+  }
+}
+
+/* ── Google Translate Toolbar Suppression ──────────────────────────────────
+   We drive Google Translate programmatically through our own language
+   selector. The default yellow banner and toolbar must be hidden entirely. */
+
+/* Hide the yellow top banner frame */
+.goog-te-banner-frame,
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Prevent Google Translate from pushing body content down */
+body {
+  top: 0 !important;
+  position: static !important;
+}
+
+/* Hide the floating gadget container */
+.goog-te-gadget,
+#goog-gt-tt,
+.goog-te-balloon-frame {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+/* Hide the popup tooltip that appears on translated words */
+.goog-tooltip,
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+/* Remove any extra padding/margin Google injects on html/body */
+html body.translated-ltr,
+html body.translated-rtl {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* Hide attribution text Google may inject */
+.goog-logo-link,
+.goog-te-gadget span {
+  display: none !important;
+}
+
+/* Hide the translate bar injected inside iframes */
+.skiptranslate {
+  display: none !important;
+}
+
+/* Hide the hidden GT widget container we injected */
+#google_translate_element {
+  display: none !important;
+  visibility: hidden !important;
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Hide the Google Translate highlight on translated spans */
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Responsive utilities for Auth & Landing layouts */
+@media (max-width: 900px) {
+  .auth-hero-pane {
+    display: none !important;
+  }
+  .auth-mobile-back {
+    display: inline-flex !important;
+  }
+}
+

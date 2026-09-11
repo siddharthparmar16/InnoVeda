@@ -28,8 +28,27 @@ const MANUAL_SYNONYMS: Record<string, string> = {
   'dry ginger': 'Shunthi',
 };
 
+// Devanagari-script aliases for the core curated herbs (Sanskrit + Hindi +
+// Marathi forms). The ontology stores romanized names only, so without this
+// map Hindi/Marathi-script queries resolve zero botanicals.
+export const DEVANAGARI_SYNONYMS: Record<string, string> = {
+  'हरिद्रा': 'Haridra', 'हल्दी': 'Haridra', 'हळद': 'Haridra',
+  'मरिच': 'Maricha', 'मरीच': 'Maricha', 'काली मिर्च': 'Maricha',
+  'काला मिर्च': 'Maricha', 'मिरी': 'Maricha', 'काळी मिरी': 'Maricha',
+  'गुडूची': 'Guduchi', 'गिलोय': 'Guduchi', 'गुळवेल': 'Guduchi',
+  'अश्वगंधा': 'Ashwagandha', 'असगंध': 'Ashwagandha',
+  'निम्ब': 'Nimba', 'नीम': 'Nimba', 'कडुनिंब': 'Nimba', 'कडू नीम': 'Nimba',
+  'आमलकी': 'Amalaki', 'आंवला': 'Amalaki', 'आवळा': 'Amalaki',
+  'हरीतकी': 'Haritaki', 'हरड़': 'Haritaki', 'हिरडा': 'Haritaki',
+  'बिभीतकी': 'Bibhitaki', 'बहेड़ा': 'Bibhitaki', 'बेहडा': 'Bibhitaki',
+  'तुलसी': 'Tulsi', 'तुळस': 'Tulsi',
+  'शुण्ठी': 'Shunthi', 'सोंठ': 'Shunthi', 'सुंठ': 'Shunthi',
+  'अदरक': 'Shunthi', 'आले': 'Shunthi',
+  'पिप्पली': 'Pippali', 'पीपल': 'Pippali',
+};
+
 // Dynamically build the synonym map from the ontology
-export const VERNACULAR_SYNONYMS: Record<string, string> = { ...MANUAL_SYNONYMS };
+export const VERNACULAR_SYNONYMS: Record<string, string> = { ...MANUAL_SYNONYMS, ...DEVANAGARI_SYNONYMS };
 
 botanicalOntology.forEach(drug => {
   const sanskrit = drug.sanskrit_name;

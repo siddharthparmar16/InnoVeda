@@ -3,7 +3,14 @@ import { analyzeFormulationQuery } from '@/lib/domain-engine/statutory-rule-engi
 import { Jurisdiction, SupportedLanguage, LegalVerdict } from '@/types/domain';
 
 // Simple bounded in-memory LRU cache for hackathon demo
-const _verdictCache = new Map<string, LegalVerdict>();
+// Use globalThis to persist cache across Hot Module Replacement (HMR) in Next.js dev mode
+const globalForCache = globalThis as unknown as {
+  _verdictCache: Map<string, LegalVerdict> | undefined
+};
+
+const _verdictCache = globalForCache._verdictCache ?? new Map<string, LegalVerdict>();
+if (process.env.NODE_ENV !== 'production') globalForCache._verdictCache = _verdictCache;
+
 const MAX_CACHE_SIZE = 100;
 
 export async function POST(request: Request) {

@@ -30,6 +30,7 @@ Flow:
 import asyncio
 import time
 import logging
+import random
 from typing import Optional, AsyncGenerator
 
 import httpx
@@ -37,10 +38,81 @@ from google import genai
 from google.genai import types
 from google.genai import errors as genai_errors
 
+import json
+import re
+
 from key_manager import KeyManager, KeyState
 from config import get_settings
 
 logger = logging.getLogger(__name__)
+
+
+def repair_json(text: str) -> str:
+    """Repair incomplete or truncated JSON by safely closing open strings and structures."""
+    text = (text or "").strip()
+    if not text:
+        return "{}"
+    if text.startswith("```json"):
+        text = text[7:]
+    elif text.startswith("```"):
+        text = text[3:]
+    if text.endswith("```"):
+        text = text[:-3]
+    text = text.strip()
+
+    try:
+        json.loads(text)
+        return text
+    except Exception:
+        pass
+
+    in_string = False
+    escape = False
+    stack = []
+
+    for char in text:
+        if escape:
+            escape = False
+            continue
+        if char == "\\":
+            escape = True
+            continue
+        if char == '"':
+            in_string = not in_string
+            continue
+        if not in_string:
+            if char in ("{", "["):
+                stack.append(char)
+            elif char == "}":
+                if stack and stack[-1] == "{":
+                    stack.pop()
+            elif char == "]":
+                if stack and stack[-1] == "[":
+                    stack.pop()
+
+    repaired = text
+    if in_string:
+        repaired += '"'
+
+    repaired = re.sub(r",\s*$", "", repaired)
+    repaired = re.sub(r":\s*$", ": null", repaired)
+
+    while stack:
+        opening = stack.pop()
+        repaired = re.sub(r",\s*$", "", repaired)
+        if opening == "{":
+            repaired += "}"
+        elif opening == "[":
+            repaired += "]"
+
+    try:
+        json.loads(repaired)
+        return repaired
+    except Exception:
+        last_comma = text.rfind(",")
+        if last_comma != -1:
+            return repair_json(text[:last_comma])
+        return text
 
 
 class AllKeysExhaustedError(Exception):
@@ -82,6 +154,9 @@ def _classify_error(e: Exception) -> tuple[str, bool, bool]:
         elif code == 400:
             # Invalid request (bad prompt, unsupported model) — NOT retriable
             # This is a user error, not a key error
+            return error_msg, False, False
+        elif code == 404:
+            # Model not found or deprecated — model configuration error, NOT a key failure
             return error_msg, False, False
         else:
             # Other 4xx — treat as retriable to be safe
@@ -153,6 +228,7 @@ class GeminiFallbackChain:
             kwargs["top_p"] = top_p
         if top_k is not None:
             kwargs["top_k"] = top_k
+        kwargs["response_mime_type"] = "application/json"
         return types.GenerateContentConfig(**kwargs) if kwargs else None
 
     async def generate_content(
@@ -176,7 +252,16 @@ class GeminiFallbackChain:
         - finish_reason: why generation stopped
         - usage: token usage statistics
         """
-        model_name = model or self._settings.GEMINI_DEFAULT_MODEL
+        primary_model = model or self._settings.GEMINI_DEFAULT_MODEL
+        # Models to try if the primary is overloaded (503 / high demand).
+        fallback_models = [
+            m for m in getattr(self._settings, "fallback_models_list", [])
+            if m and m != primary_model
+        ]
+        model_name = primary_model
+        # Accommodate model reasoning thoughts + complete legal JSON
+        if max_output_tokens is None:
+            max_output_tokens = getattr(self._settings, "DEFAULT_MAX_OUTPUT_TOKENS", 4096)
         config = self._build_config(
             system_instruction=system_instruction,
             temperature=temperature,
@@ -188,8 +273,11 @@ class GeminiFallbackChain:
         attempts = 0
         errors_log = []
 
+        # Budget attempts across primary + fallback models so a 503 on the
+        # primary still leaves room to try the fallback model.
+        num_models = 1 + len(fallback_models)
         max_total_attempts = (
-            self._key_manager.total_keys * self._settings.MAX_RETRIES_PER_KEY
+            self._key_manager.total_keys * self._settings.MAX_RETRIES_PER_KEY * num_models
         )
 
         while attempts < max_total_attempts:
@@ -206,11 +294,16 @@ class GeminiFallbackChain:
                     f"Key {key_state.masked_key} → {model_name}"
                 )
 
-                # Native async call via client.aio
-                response = await client.aio.models.generate_content(
-                    model=model_name,
-                    contents=prompt,
-                    config=config,
+                # Native async call via client.aio, guarded by a hard timeout
+                # so a hung key fails over fast instead of blocking 30s.
+                timeout_s = self._settings.REQUEST_TIMEOUT_MS / 1000.0
+                response = await asyncio.wait_for(
+                    client.aio.models.generate_content(
+                        model=model_name,
+                        contents=prompt,
+                        config=config,
+                    ),
+                    timeout=timeout_s,
                 )
 
                 # Success!
@@ -238,8 +331,16 @@ class GeminiFallbackChain:
                     fr = getattr(response.candidates[0], "finish_reason", None)
                     finish_reason = str(fr) if fr else None
 
+                output_text = response.text or ""
+                # If generation stopped due to token limit, heal truncated JSON
+                if finish_reason and "MAX_TOKENS" in str(finish_reason):
+                    logger.warning(
+                        f"⚠️ Model hit token limit ({finish_reason}). Repairing truncated JSON to protect client parser."
+                    )
+                    output_text = repair_json(output_text)
+
                 return {
-                    "text": response.text or "",
+                    "text": output_text,
                     "model": model_name,
                     "key_used": key_state.masked_key,
                     "attempts": attempts,
@@ -276,8 +377,22 @@ class GeminiFallbackChain:
                         {"key": key_state.masked_key, "error": error_msg, "permanent": False}
                     )
 
-                # Small backoff before trying next key
-                await asyncio.sleep(0.5)
+                # Model overload (503 / high demand): switch to a fallback model
+                # for the next attempt instead of hammering the same sick model.
+                err_lower = error_msg.lower()
+                if fallback_models and (
+                    "503" in error_msg or "unavailable" in err_lower or "overload" in err_lower or "high demand" in err_lower
+                ):
+                    model_name = fallback_models.pop(0)
+                    # A different model often has separate capacity — don't let
+                    # cooldown from the sick model block the immediate retry.
+                    self._key_manager.reset_key_for_model_retry(key_state)
+                    logger.warning(f"🔀 Switching to fallback model → {model_name}")
+
+                # Fast failover: tiny capped backoff so key rotation is ~instant
+                backoff = min(0.2 * (2 ** (attempts - 1)), 1.0)
+                jitter = random.uniform(0, 0.1 * backoff)
+                await asyncio.sleep(backoff + jitter)
                 continue
 
         # All keys exhausted
@@ -309,6 +424,8 @@ class GeminiFallbackChain:
         - is_final: True for the last chunk
         """
         model_name = model or self._settings.GEMINI_DEFAULT_MODEL
+        if max_output_tokens is None:
+            max_output_tokens = getattr(self._settings, "DEFAULT_MAX_OUTPUT_TOKENS", 4096)
         config = self._build_config(
             system_instruction=system_instruction,
             temperature=temperature,
@@ -388,7 +505,24 @@ class GeminiFallbackChain:
                 logger.warning(
                     f"⚡ Stream failure | Key {key_state.masked_key}: {error_msg}"
                 )
-                await asyncio.sleep(0.5)
+                
+                # If we already yielded chunks, we cannot cleanly retry the stream
+                if chunk_count > 0:
+                    logger.error(f"Stream failed after yielding {chunk_count} chunks. Aborting retry to avoid duplication.")
+                    yield {
+                        "text": "",
+                        "key_used": key_state.masked_key,
+                        "chunk_index": chunk_count + 1,
+                        "is_final": True,
+                        "total_chunks": chunk_count,
+                        "error": "Stream interrupted mid-generation"
+                    }
+                    return
+
+                # Fast failover for streams too
+                backoff = min(0.2 * (2 ** (attempts - 1)), 1.0)
+                jitter = random.uniform(0, 0.1 * backoff)
+                await asyncio.sleep(backoff + jitter)
                 continue
 
         raise AllKeysExhaustedError(
