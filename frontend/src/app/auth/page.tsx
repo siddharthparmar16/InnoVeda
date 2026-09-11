@@ -22,7 +22,7 @@ import {
 import { useAuth } from '@/context/AuthContext';
 import { useTheme } from '@/context/ThemeContext';
 
-export default function AuthPage() {
+function AuthContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { isDark } = useTheme();
@@ -727,5 +727,17 @@ export default function AuthPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function AuthPage() {
+  return (
+    <React.Suspense fallback={
+      <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', background: '#0b0d14', color: '#c9a86a', fontFamily: 'Georgia, serif' }}>
+        <span>Loading authentication gateway...</span>
+      </div>
+    }>
+      <AuthContent />
+    </React.Suspense>
   );
 }
