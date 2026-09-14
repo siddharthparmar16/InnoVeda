@@ -116,31 +116,7 @@ The backend service will start at **`http://localhost:8000`**. Check health at `
 
 ---
 
-## 🌐 Production Deployment Guide
-
-### Frontend Deployment (Vercel)
-The frontend is optimized for zero-configuration deployment on **Vercel**:
-1. Fork or push your code to GitHub.
-2. Import the project in [Vercel Dashboard](https://vercel.com/new).
-3. Set **Root Directory** to `frontend`.
-4. Framework Preset: **Next.js**.
-5. Deploy!
-
-### Backend Deployment (Render / Cloud Run / Railway)
-The Python RAG fallback backend can be deployed using Docker or native Python runtimes:
-```dockerfile
-# Dockerfile
-FROM python:3.11-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-COPY . .
-EXPOSE 8000
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-```
-
----
 
 ## 👥 Contributors & Acknowledgements
 - Developed for **Smart India Hackathon 2026**
-- Traditional Knowledge references derived from TKDL, CCARS, and classical Ayurvedic Ayurvedic Pharmacopoeia of India (API) standards.
+- Members - Siddharthsinh Parmar, Krish Patel, Mantra Patel, Meet Patel, Yashi Sonaiya, Shweta Chorwadi
