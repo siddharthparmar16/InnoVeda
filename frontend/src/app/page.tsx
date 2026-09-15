@@ -4,10 +4,6 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { redirect } from 'next/navigation';
-
-export default function Home() {
-  redirect('/landing');
-}
 import { 
   Search, 
   Scale, 
