@@ -30,7 +30,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-theme="dark" className="dark">
+    <html lang="en" data-theme="light" className="light">
       <body className={`${outfit.variable} ${cinzel.variable}`} style={{ background: 'var(--bg-primary)', color: 'var(--text-primary)', margin: 0, padding: 0 }}>
         <ThemeProvider>
           <AuthProvider>
