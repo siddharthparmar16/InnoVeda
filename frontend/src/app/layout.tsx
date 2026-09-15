@@ -6,6 +6,11 @@ import AppShell from "@/components/AppShell";
 import { ThemeProvider } from "@/context/ThemeContext";
 import { AuthProvider } from "@/context/AuthContext";
 import AuthModal from "@/components/AuthModal";
+import { redirect } from 'next/navigation';
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  redirect('/landing');
+}
 
 const outfit = Outfit({ 
   subsets: ["latin"],
